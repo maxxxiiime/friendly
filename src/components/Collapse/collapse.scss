@@ -1,0 +1,72 @@
+@import "../../pages/styles/variables.scss";
+.collapse-bar {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  @media only screen and (max-width: 775px) {
+    width: 90%;
+    margin: auto;
+  }
+
+  &_title {
+    max-width: 1024px;
+    height: 52px;
+    border-radius: 5px;
+    position: relative;
+    margin: 25px auto;
+    background-color: $red;
+    z-index: 2;
+    cursor: pointer;
+
+    h2 {
+      position: absolute;
+      left: 10px;
+      bottom: -5px;
+      text-align: left;
+      font-family: "Monserrat", sans-serif;
+      font-weight: 500;
+      font-size: 24px;
+      color: white;
+
+      @media only screen and (max-width: 775px) {
+        font-size: 13px;
+        bottom: 5px;
+      }
+    }
+    .to-toggle-collapse {
+      position: absolute;
+      right: 10px;
+      bottom: 15px;
+
+      .rotate {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .icon-collapse {
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+  }
+  &_text {
+    color: $red;
+    overflow: hidden;
+    height: 0px;
+    max-width: 1000px;
+    margin: -27px auto 0 auto;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-25px);
+    background-color: rgb(235, 235, 235);
+    border-radius: 3px;
+    z-index: 1;
+    padding: 10px 10px 10px 10px;
+
+    &.show-text {
+      padding: 18px 10px 10px 10px;
+      transform: translateY(0px);
+      height: auto;
+      opacity: 1;
+    }
+  }
+}

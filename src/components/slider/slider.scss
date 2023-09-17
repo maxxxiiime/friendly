@@ -1,0 +1,44 @@
+.slider {
+  width: 90%;
+  max-width: 1240px;
+  margin: 50px auto;
+  position: relative;
+  &_img {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    height: 415px;
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    @media only screen and (max-width: 775px) {
+      height: 255px;
+    }
+  }
+ 
+  .next-slide,
+  .back-slide {
+    width: 47px;
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    filter: drop-shadow(0 1px 6px rgba(0, 0, 0, 0.3));
+    @media only screen and (max-width: 775px) {
+      width: 20px;
+    }
+  }
+  .next-slide {
+    right: 10px;
+  }
+  .back-slide {
+    left: 10px;
+  }
+  .index-slider {
+    position: absolute;
+    left: 49%;
+    bottom: 10px;
+    color: white;
+    font-size: 18px;
+    filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3));
+  }
+}

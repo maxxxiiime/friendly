@@ -11,13 +11,13 @@
 			"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg"
 			
 		],
-		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+		"description": " Pour permettre la commande de repas en ligne en donnant la possibilitée aux utilisateurs de composer leur propre menu. J'ai réalisé le site de l'entreprise ohmyfood en adoptant une approche 'mobile first', j'ai implémenté une page d'accueil, quatre pages de menus de restaurants, ainsi qu'un élément de chargement (loader).",
 		"host": {
 			"name": "Nathalie Jean",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"rating": "5",
-		"location": "Ile de France - Paris 17e",
+		"subtitle": "Conception web - commande de repas en ligne",
 		"equipments": [
 			"Équipements de base",
 			"Micro-Ondes",
@@ -41,7 +41,7 @@
 	},
 	{
 		"id": "b9123946",
-		"title": "Site Web Photographe Nina",
+		"title": "Nina",
 		"cover": "https://maxxxiiime.github.io/ninacarducci/assets/images/ninacarducci-preview-800.webp",
 		"thecover": "https://maxxxiiime.github.io/ninacarducci/3-ninacarducci-1240px.jpg",
 		"pictures": [
@@ -50,13 +50,13 @@
 			"https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
 		],
-		"description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
+		"description": "Optimisation du site web de Nina Carducci, photographe professionnelle expérimentée basée à Bordeaux, spécialisée en portraits & événementiel.",
 		"host": {
 			"name": "Della Case",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
 		},
 		"rating": "4",
-		"location": "Ile de France - Paris 10e",
+		"subtitle": "Optimisation Site Web Photographe Professionelle",
 		"equipments": [
 			"Parking",
 			"Sèche Cheveux",
@@ -76,7 +76,7 @@
 		"color": [
 			"#E5975F"
 			],
-			"link": [
+		"link": [
 				"https://maxxxiiime.github.io/ninacarducci/"
 			]
 	},
@@ -97,7 +97,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - Paris 20e",
+		"subtitle": "Beach Bar - Restaurant",
 		"equipments": [
 			"Wi-fi",
 			"Cuisine équipée",
@@ -120,6 +120,7 @@
 		"id": "7af00cd6",
 		"title": "OPS MANAGEMENT",
 		"cover": "https://i.ibb.co/r74NFqV/ops-logo.png",
+		"thecover": "https://i.ibb.co/9ZP5HGT/kokomo-thecover-1240.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-2.jpg",
@@ -132,7 +133,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - Paris 11e",
+		"subtitle": "Ile de France - Paris 11e",
 		"equipments": [
 			"Micro-Ondes",
 			"Wi-fi",
@@ -141,10 +142,11 @@
 			"Télévision"
 		],
 		"tags": [
-			"Parmentier",
-			"Marais",
-			"Parc",
-			"Night Life"
+			"Branding",
+			"Poster",
+			"Totem",
+			"T-shirts",
+			"Flyer"
 		],
 		"filter": [
 			"Branding"
@@ -155,8 +157,9 @@
 	},
 	{
 		"id": "0979876d",
-		"title": "Appartement de Standing - 10e",
+		"title": "Parc en Fête",
 		"cover": "https://i.ibb.co/3Rx5JBW/parcenfete.png",
+		"thecover": "https://i.ibb.co/9ZP5HGT/kokomo-thecover-1240.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-2.jpg",
@@ -171,7 +174,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
 		"rating": "5",
-		"location": "Ile de France - Paris 10e",
+		"subtitle": "Ile de France - Paris 10e",
 		"equipments": [
 			"Frigo Américain",
 			"Sèche Cheveux",
@@ -181,18 +184,24 @@
 		],
 		"tags": [
 			"Branding",
-			"Logo",
 			"Visual identity",
-			"Poster"
+			"Poster",
+			"Totem",
+			"T-shirts",
+			"Flyer"
 		],
 		"filter": [
-			"Branding"
+			"Branding"		
+		],
+		"color": [
+			"#47A603"
 		]
 	},
 	{
 		"id": "f72a452f",
 		"title": "Studio d'artiste",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
+		"thecover": "https://i.ibb.co/9ZP5HGT/kokomo-thecover-1240.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-2.jpg",
@@ -206,7 +215,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
 		},
 		"rating": "5",
-		"location": "Ile de France - Paris 18e",
+		"subtitle": "Ile de France - Paris 18e",
 		"equipments": [
 			"Chambre Séparée",
 			"Parking"
@@ -236,7 +245,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - Paris 18e",
+		"subtitle": "Ile de France - Paris 18e",
 		"equipments": [
 			"Salle de bains",
 			"Frigo",
@@ -272,7 +281,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		"rating": "4",
-		"location": "Ile de France - Paris 14e",
+		"subtitle": "Ile de France - Paris 14e",
 		"equipments": [
 			"Climatisation",
 			"Machine à laver",
@@ -305,7 +314,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - Paris 11e",
+		"subtitle": "Ile de France - Paris 11e",
 		"equipments": [
 			"Vue Parc",
 			"Chauffage",
@@ -324,38 +333,7 @@
 			"Video"
 		]
 	},
-	{
-		"id": "2cf259e1",
-		"title": "Charmant Studio Marais",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-4.jpg"
-		],
-		"description": "Situé en plein coeur du Marais, notre studio est idéal pour les touristes en quête de découverte. Sa cuisine toute équipée est particulièrement pratique.",
-		"host": {
-			"name": "Victor Moran",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-7.jpg"
-		},
-		"rating": "4",
-		"location": "Ile de France - Paris 11e",
-		"equipments": [
-			"Clic-clac",
-			"Four",
-			"Sèche Cheveux",
-			"Wi-fi"
-		],
-		"tags": [
-			"Marais",
-			"Studio",
-			"Parc"
-		],
-		"filter": [
-			"Branding"
-		]
-	},
+
 	{
 		"id": "5323c29b",
 		"title": "Studio fonctionnel République",
@@ -372,7 +350,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - Paris 3e",
+		"subtitle": "Ile de France - Paris 3e",
 		"equipments": [
 			"Rangements",
 			"Lit",
@@ -393,245 +371,6 @@
 		]
 	},
 	{
-		"id": "af6d2d48",
-		"title": "Bungalow dans la forêt",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-5.jpg"
-		],
-		"description": "Quittez Paris pour vous mettre au vert. À seulement 30 minutes de la Gare du Nord, venez découvrir la forêt d'Ecouen directement depuis la fenêtre de votre bungalow. Entièrement équipé, ce logement saura vous accueillir dans le confort, tout en vous permettant de vous concentrer sur l'essentiel. Le matin, ouvrez les fenêtres, et profitez du chant des oiseaux.",
-		"host": {
-			"name": "Sarah Devit",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
-		},
-		"rating": "5",
-		"location": "Ile de France - Ecouen",
-		"equipments": [
-			"SDB",
-			"Cuisine équipée",
-			"Toilettes sèches",
-			"Frigo",
-			"Bouilloire"
-		],
-		"tags": [
-			"Forêt",
-			"Nature",
-			"Musée d'Ecouen"
-		],
-		"filter": [
-			"Branding"
-		]
-	},
-	{
-		"id": "7cbb378e",
-		"title": "Grande Maison proche banlieue",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-2.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-5.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-6.jpg"
-		],
-		"description": "Vous chercher un endroit pour fêter un anniversaire entre amis tout en restant proche de Paris ? Ne cherchez plus ! Entièrement équipée, cette maison est l'endroit idéal pour se regrouper.",
-		"host": {
-			"name": "Karen Guillet",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
-		},
-		"rating": "4",
-		"location": "Ile de France - Arnouville",
-		"equipments": [
-			"SDB",
-			"Cuisine équipée",
-			"Frigo",
-			"Bouilloire",
-			"WIFI",
-			"Télévision",
-			"Cintres",
-			"Équipements de base"
-		],
-		"tags": [
-			"Forêt",
-			"Nature",
-			"Grande maison"
-		],
-		"filter": [
-			"Branding"
-		]
-	},
-	{
-		"id": "ba55a0cc",
-		"title": "Maison T5 - Le Vésinet",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-5.jpg"
-		],
-		"description": "Maison T5. Idéale pour grands groupes. 45 minutes de Paris Saint-Lazare.",
-		"host": {
-			"name": "Karen Guillet",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
-		},
-		"rating": "3",
-		"location": "Ile de France - Arnouville",
-		"equipments": [
-			"Bouilloire",
-			"SDB",
-			"Cuisine équipée",
-			"Frigo",
-			"WIFI",
-			"TV",
-			"Cintres",
-			"Four",
-			"Micro-Ondes",
-			"Parking"
-		],
-		"tags": [
-			"Nature",
-			"Groupe",
-			"Maison"
-		],
-		"filter": [
-			"Branding"
-		]
-	},
-	{
-		"id": "1e181317",
-		"title": "Loft de Luxe à la Défense",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-5.jpg"
-		],
-		"description": "Si vous êtes à la recherche de l'endroit idéal pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idéal. En plein coeur de la Défense, il dispose également de tous les équipements pour que vous soyez comme chez vous.",
-		"host": {
-			"name": "Julie Donatella",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
-		},
-		"rating": "3",
-		"location": "Ile de France - La Défense",
-		"equipments": [
-			"Baie vitrée",
-			"Télévision",
-			"Four",
-			"Frigo",
-			"Wi-fi",
-			"Micro-Ondes",
-			"Parking"
-		],
-		"tags": [
-			"La Défense",
-			"Loft",
-			"Luxe"
-		],
-		"filter": [
-			"Web"
-		]
-	},
-	{
-		"id": "1e180563",
-		"title": "Charmant apt aux portes de Paris",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-5.jpg"
-		],
-		"description": "Ce charmant appartement offre des prestations de luxe, aux portes de Paris. À deux pas de la ligne 3, vous pourrez accéder à toutes les attractions touristiques dont vous avez toujours rêvées.",
-		"host": {
-			"name": "Julie Donatella",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
-		},
-		"rating": "4",
-		"location": "Ile de France - Levallois",
-		"equipments": [
-			"Télévision",
-			"Four",
-			"Frigo",
-			"Hotte",
-			"Wi-fi",
-			"Micro-Ondes"
-		],
-		"tags": [
-			"Vue Parc",
-			"Apt de Charme"
-		],
-		"filter": [
-			"Web"
-		]
-	},
-	{
-		"id": "2139a317",
-		"title": "Cheap - Chambre Paris 20",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-17-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-17-1.jpg"
-		],
-		"description": "Cette chambre dispose de toutes les facilités nécessaires. Proche métro et commerces.",
-		"host": {
-			"name": "Hugo Perrier",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
-		},
-		"rating": "2",
-		"location": "Ile de France - Paris 20e",
-		"equipments": [
-			"Bouilloire",
-			"Wi-fi",
-			"Micro-Ondes"
-		],
-		"tags": [
-			"Vue Parc",
-			"Métros"
-		],
-		"filter": [
-			"Web"
-		]
-	},
-	{
-		"id": "6ff132c6",
-		"title": "Charmant studio",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-3.jpg"
-		],
-		"description": "Ce studio décoré avec goût sera votre nid douillet après une longue journée passée à découvrir Paris.",
-		"host": {
-			"name": "Michel Romy",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-11.jpg"
-		},
-		"rating": "4",
-		"location": "Ile de France - Paris 13e",
-		"equipments": [
-			"Équipements de base",
-			"Four",
-			"Frigo",
-			"Wi-fi",
-			"Micro-Ondes"
-		],
-		"tags": [
-			"Studio",
-			"Charmant",
-			"13e"
-		],
-		"filter": [
-			"Web"
-		]
-	},
-	{
 		"id": "cb02d69b",
 		"title": "Magnifique appartement Rivoli",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-19-1.jpg",
@@ -644,7 +383,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"rating": "4",
-		"location": "Ile de France - Paris 13e",
+		"subtitle": "Ile de France - Paris 13e",
 		"equipments": [
 			"Wi-fi",
 			"Équipements de base",

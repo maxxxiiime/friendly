@@ -5,7 +5,9 @@
    font-weight: 100 800; /* Gamme de graisses disponibles */
   font-stretch: 100 800; /* Gamme de largeurs disponibles */
 }
-
+h1{
+  text-decoration: none;
+}
 ul {
   list-style: none;
   margin: 0px;
@@ -26,14 +28,18 @@ ul {
   position: relative;
   // flex-wrap: wrap;
  
-
+.text-description{
+  font-family: 'montserrat';
+  max-width: 49%;
+  font-size: 15px;
+}
 
   ._text-left {
     text-align: left;
     border-bottom: solid 2px #7e7e7e;
     h2 {
       font-family: "Free";
-      font-size: 36px;
+      font-size: 38px;
       font-variation-settings: "wght" 700, "wdth" 400;
       text-transform: uppercase;
       color: #BF8563;
@@ -45,7 +51,8 @@ ul {
     p {
       color: #BF8563;
       font-family: "montserrat";
-      font-size: 18px;
+      font-size: 21px;
+      font-weight: 500;
       margin: 0 0 15px 0;
       @media only screen and (max-width: 775px) {
         font-size: 14px;
@@ -148,5 +155,51 @@ img{
   border-radius: 5px;
   box-shadow: rgba(38,7,0,0.3) 0px 15px 20px -8px;
 }
+}
 
+//NExt projet
+.next-projet{
+
+  width: 90%;
+  max-width: 1240px;
+  margin:22px auto 30px auto;
+  border-top: solid 2px #7e7e7e;
+  button{
+    margin: 0 33% 0 0;
+    
+  }
+  a{
+    margin: 20px auto;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+    h3 {
+      font-family: "Free";
+      font-size: 30px;
+      font-variation-settings: "wght" 600, "wdth" 300;
+      text-transform: uppercase;
+      text-align: left;
+      margin:0 auto;
+      transition: .6s;
+      @media only screen and (max-width: 775px) {
+        font-size: 18px;
+      }
+      &:hover{
+        font-variation-settings: "wght" 800, "wdth" 800;
+      }
+    }
+    .text-next-projet{
+      display: flex;
+      flex-wrap:nowrap;
+      flex-direction: column;
+      align-items: flex-start;
+      align-content: flex-start;
+p{
+  margin:0px auto auto 0;
+}
+    }
+  }
 }

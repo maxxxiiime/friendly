@@ -3,15 +3,17 @@ import slide1 from '../assets/slide1.jpg';
 import Header from '../components/header/Header';
 import Banner from '../components/banner/Banner';
 import Footer from '../components/footer/Footer';
-import CardsDatas from '../datas/logements.json';
+import CardsDatas from '../datas/projets.json';
 import Card from '../components/cards/Cards';
-import Filter from '../components/filter/Filter'; // Assurez-vous d'importer le composant de filtre
+import Filter from '../components/filter/Filter'; 
+
 
 import './styles/home.scss';
+import Txtportfolio from '../components/txtportfolio/Txtportfolio';
 
 export default function Portfolio() {
   const [selectedCategory, setSelectedCategory] = useState('');
-  const categories = ['Webdesign', 'Branding', 'Video'];
+  const categories = ['Web', 'Branding', 'Video'];
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
@@ -21,8 +23,9 @@ export default function Portfolio() {
     <div>
       <div className='grunge'></div>
       <Header />
-      <Banner image={slide1} text="Chez vous, partout et ailleurs" />
-      
+      <Banner image={slide1} text="Portfolio" />
+   
+   <Txtportfolio />
         <Filter
           categories={categories}
           selectedCategory={selectedCategory}
@@ -36,6 +39,7 @@ export default function Portfolio() {
             key={card.id}
             id={card.id}
             cover={card.cover}
+            thecover={card.thecover}
             title={card.title}
             pictures={card.pictures}
           />

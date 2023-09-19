@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'Free';
     src: url('../../assets/Variable/Free-variable.ttf')  format('truetype');
-    /* Autres formats de police peuvent être ajoutés ici */
-     font-weight: 100 800; /* Gamme de graisses disponibles */
+    font-weight: 100 800; /* Gamme de graisses disponibles */
     font-stretch: 100 800; /* Gamme de largeurs disponibles */
 }
 .grunge {
@@ -103,7 +102,6 @@ h1{
         font-variation-settings: "wght" 600, "wdth" 100;
     }
 }
-
 
 .friendly-designer a:hover{
 transition: 1s;

@@ -1,5 +1,4 @@
 
-
 // .nav-header {
 //   display: flex;
 //   width: 90%;
@@ -63,7 +62,6 @@
 @font-face {
   font-family: 'Movement';
   src: url('../../assets/Variable/Movement.ttf')  format('truetype');
-  /* Autres formats de police peuvent être ajoutés ici */
   //  font-weight: 100 800; /* Gamme de graisses disponibles */
   // font-stretch: 100 800; /* Gamme de largeurs disponibles */
   font-weight: 100 900; /* Gamme de graisses disponibles movement */
@@ -73,7 +71,8 @@
   position:fixed;
   max-height: 67px;
   width: 100%;
-z-index: 2;
+  top:0;
+z-index: 3;
   background: linear-gradient(to right, #242426, #000);
   box-shadow: rgba(38,7,0,0.3) 0px 15px 20px -8px;
 

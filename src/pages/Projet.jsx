@@ -1,63 +1,76 @@
 import React from "react";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-import CardsDatas from "../datas/logements.json";
+import CardsDatas from "../datas/projets.json";
 import Slider from "../components/slider/Slider";
 import Collapse from "../components/Collapse/Collapse";
 import Rating from "../components/rating/Rating";
+import Banner from '../components/banner/Banner';
 import Error from "./Error";
-import "./styles/logement.scss";
 
-export default function FicheLogement() {
+import "./styles/projet.scss";
+
+export default function Projet() {
   const queryParams = new URLSearchParams(window.location.search);
 
   const idLog = queryParams.get("id");
-  const logement = CardsDatas.filter((card) => {
+  const projet = CardsDatas.filter((card) => {
     return idLog === card.id;
   })[0];
-  console.log(logement);
+  console.log(projet);
   console.log(idLog);
 
-  if (!logement) {
+  if (!projet) {
     return <Error />;
   }
+
+  const projetColor = {
+    color: projet.color // Utilisez la couleur du projet définie dans portfolio.json
+  };
+
   return (
     <div>
+
       <Header />
-      <Slider image={logement.pictures} />
+      <Banner image={projet.thecover} text={projet.title}/>
+      
       <div className="all-description">
+      
         <div className="_text-left">
-          <h2>{logement.title}</h2>
-          <p>{logement.location}</p>
+          <h2 style={projetColor}>{projet.title}</h2>
+          <p>{projet.location}</p>
         </div>
+        <Slider image={projet.pictures} />
         <div className="tags-n-rating">
+        
           <div className="tags">
-            {logement.tags.map((tag, index) => (
+            {projet.tags.map((tag, index) => (
               <div key={index} className="tag">
                 {tag}
               </div>
             ))}
           </div>
 
-          <Rating ratingValue={logement.rating} />
+          <Rating ratingValue={projet.rating} />
         </div>
         <div className="host">
-          <div className="host-name">{logement.host.name}</div>
-          <img src={logement.host.picture} alt={logement.host.name} />
+          <div className="host-name">{projet.host.name}</div>
+          <img src={projet.host.picture} alt={projet.host.name} />
         </div>
 
         <div className="collapse-logement">
           <Collapse
             title=" Description"
-            content={logement.description}
+            content={projet.description}
             className="description-collapse"
+            style={projetColor}
           />
 
           <Collapse
             title=" Équipements"
             content={
               <ul>
-                {logement.equipments.map((equipment, index) => (
+                {projet.equipments.map((equipment, index) => (
                   <li key={index}>{equipment}</li>
                 ))}
               </ul>
@@ -65,6 +78,16 @@ export default function FicheLogement() {
           />
         </div>
       </div>
+      <div className="images-container">
+            {projet.pictures.map((picture, index) => (
+              <img
+                key={index}
+                src={picture}
+                alt={'portfolio-img' }
+                className="project-image"
+              />
+            ))}
+          </div>
       <Footer />
     </div>
   );

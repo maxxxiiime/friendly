@@ -1,4 +1,10 @@
 @import "../../pages/styles/variables.scss";
+@font-face {
+  font-family: 'Free';
+  src: url('../../assets/Variable/Free-variable.ttf')  format('truetype');
+   font-weight: 100 800; /* Gamme de graisses disponibles */
+  font-stretch: 100 800; /* Gamme de largeurs disponibles */
+}
 
 ul {
   list-style: none;
@@ -19,12 +25,17 @@ ul {
   margin: 10px auto;
   position: relative;
   // flex-wrap: wrap;
+ 
+
+
   ._text-left {
     text-align: left;
+    border-bottom: solid 2px #7e7e7e;
     h2 {
-      font-family: "montserrat";
+      font-family: "Free";
       font-size: 36px;
-      font-weight: 500;
+      font-variation-settings: "wght" 700, "wdth" 400;
+      text-transform: uppercase;
       color: #BF8563;
       margin: 5px auto 0 auto;
       @media only screen and (max-width: 775px) {
@@ -33,6 +44,7 @@ ul {
     }
     p {
       color: #BF8563;
+      font-family: "montserrat";
       font-size: 18px;
       margin: 0 0 15px 0;
       @media only screen and (max-width: 775px) {
@@ -126,4 +138,15 @@ ul {
       height: 18px;
     }
   }
+}
+.images-container{
+  width: 90%;
+  max-width: 1240px;
+  margin:auto;
+img{
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: rgba(38,7,0,0.3) 0px 15px 20px -8px;
+}
+
 }

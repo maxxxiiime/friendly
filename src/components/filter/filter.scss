@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Free';
+    src: url('../../assets/Variable/Free-variable.ttf')  format('truetype');
+    /* Autres formats de police peuvent être ajoutés ici */
+     font-weight: 100 800; /* Gamme de graisses disponibles */
+    font-stretch: 100 800; /* Gamme de largeurs disponibles */
+}
+
 .filter{
     width: 90%;
     max-width: 1240px;
@@ -6,3 +14,52 @@
     padding-bottom: 20px;
     position: relative;
 }
+
+button {
+    font-family: 'Free';
+    font-size: 18px;
+    text-transform: uppercase;
+    font-variation-settings: "wght" 600, "wdth" 100;
+    letter-spacing: 2px;
+    min-width: 18%;
+    margin: 0 1%; 
+    padding: 8px 15px;
+    background-color: #260801; 
+    color: #fff; 
+    border-radius: 15px;
+    border:none;
+    cursor: pointer;
+    transition: .7s; /* Vitesse ICI */
+
+    @media only screen and (max-width: 775px) {
+      min-width: 15%;
+      letter-spacing: 0px;
+      font-size: 10px;
+      margin: 5px 2px;
+      padding: 5px 10px;
+    }
+  }
+  
+  button.active {
+    background-color: #730202; /* Couleur des boutons  */
+    border-radius: 15px 15px 3px 3px;
+    font-variation-settings: "wght" 600, "wdth" 500;
+    transition: .7s;
+    @media only screen and (max-width: 775px) {
+      font-variation-settings: "wght" 500, "wdth" 450;
+    }
+  }
+  
+  button:hover {
+    transition: .7s;
+    background-color: #730202; 
+    color: #fff; 
+    border-radius: 3px;
+    font-variation-settings: "wght" 400, "wdth" 700;
+    @media only screen and (max-width: 775px) {
+      font-variation-settings: "wght" 500, "wdth" 400;
+    }
+  }
+  p{
+    font-family: 'Montserrat';
+  }

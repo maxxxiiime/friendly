@@ -1,16 +1,20 @@
 .slider {
-  width: 90%;
+  width: 50%;
   max-width: 1240px;
-  margin: 50px auto;
+  margin: 30px 0 20px auto;
   position: relative;
+  border-radius: 111px;
+  
   &_img {
     // position: absolute;
     // top: 0;
     // left: 0;
     height: 415px;
+    max-width: 620px;
     width: 100%;
-    border-radius: 25px;
+    border-radius:24% 76% 22% 78% / 100% 39% 61% 0% ;
     object-fit: cover;
+    box-shadow: rgba(38,7,0,0.9) 5px 10px 2px -1px;
     @media only screen and (max-width: 775px) {
       height: 255px;
     }
@@ -18,6 +22,7 @@
  
   .next-slide,
   .back-slide {
+    z-index: 9;
     width: 47px;
     position: absolute;
     top: 40%;

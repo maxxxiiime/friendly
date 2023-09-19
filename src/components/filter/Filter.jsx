@@ -4,7 +4,7 @@ import './filter.scss';
 export default function Filter({ categories, selectedCategory, onSelectCategory }) {
   return (
     <div className="filter">
-      <p>Filtrer par catégorie :</p>
+      <p>Voici quelques exemples de mes réalisations</p> 
       <button
         className={selectedCategory === '' ? 'active' : ''}
         onClick={() => onSelectCategory('')}

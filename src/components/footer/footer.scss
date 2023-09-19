@@ -1,7 +1,7 @@
 .footer-container{
-  position: fixed;
+  // position: fixed;
   bottom: 0;
-  width: 100%; /* pour que le pied de page occupe toute la largeur */
+  width: 100%; /* sur toute la largeur */
 }
 
 .footer {
@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  // background-color: black;
   @media only screen and (max-width: 775px) {
     margin-top: 60px;
     padding-bottom: 80px;
@@ -23,10 +23,10 @@
   }
   .footer_text {
     width: 513px;
-    color: white;
-    font-size: 24px;
+    color: #BF8563;
+    font-size: 15px;
     font-weight: 500;
-    margin: 30px auto 20px auto;
+    margin: 30px auto 40px auto;
     text-align: center;
 
     @media only screen and (max-width: 775px) {

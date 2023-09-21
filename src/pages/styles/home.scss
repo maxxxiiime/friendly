@@ -6,7 +6,7 @@
 }
 .grunge {
     position: fixed;
-    z-index: 3;
+    z-index: 99;
     top: -300%;
     left: -150%;
     height: 600%;
@@ -16,7 +16,7 @@
     background-image: url(../../assets/grunge.png);
     background-size: 200px;
     background-repeat: repeat;
-    opacity: .25;
+    opacity: .3;
     pointer-events: none
   }
   @keyframes grain {
@@ -61,51 +61,154 @@
     }
   }
   
+  @keyframes bubblin {
+    0% {
+    //   transform: rotate(0deg);
+      border-radius: 38% 62% 70% 30% / 30% 30% 70% 70%;
+    }
+    20% {
+        border-radius: 39% 61% 41% 59% / 34% 50% 50% 56% ;
+    }
+    40% { 
+        border-radius: 65% 35% 33% 67% / 38% 58% 42% 62% ;
+      }
+    60% {
+        border-radius: 43% 57% 65% 35% / 64% 37% 63% 33% ;
+      }
+    80% {   
+        border-radius: 35% 65% 28% 72% / 67% 31% 69% 55% ;
+      }
+    100% {
+    //   transform: rotate(360deg);
+      border-radius: 38% 62% 70% 30% / 30% 30% 70% 70%;
+    }
+  }
 
-.cards_container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    max-width: 1240px;
-    background-color: #F6F6F6;
-    border-radius: 25px;
-    margin:auto;
-    padding-bottom: 20px;
-    justify-content: space-around;
-    align-items: center;
-display: flex;
-@media only screen and (max-width:775px){
-    background-color: white;
+  @keyframes metamorph {
+    0% {
+        border-radius: 20% 60% 60% 40%/80% 30%
+    }
+
+    to {
+        border-radius: 40% 60%
+    }
 }
+
+@keyframes spin {
+    to {
+        transform: rotate(1turn)
+    }
+}
+.container{
+    overflow: hidden;
 }
 h1{
     color: #730202;
     display: flex;
-    margin:auto;
-    font-size: 51px;
-    width: 80%;
+    margin:100px auto 110px 0;
+    font-size: 70px;
+    width: 50%;
     max-width: 1240px;
     // width:400px;
      text-align: left;
      justify-content:flex-start;
      align-items: flex-start;
-    
-   
+     cursor: pointer;
+     @media only screen and (max-width:775px){
+        margin: 23px auto 110px 0;
+        font-size: 35px;
+    }
+     
 }
+
 .friendly-designer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1240px;
+    height: 70vh;
+    margin: 100px auto;
     font-family: 'Free';
     font-size: 34px;
-    text-align: center;
+    text-align: left;
+    position: relative;
+    @media only screen and (max-width:775px){
+        font-size: 22px;
+    }
     a{
         transition: .5s;
         text-decoration: none;
         font-variation-settings: "wght" 600, "wdth" 100;
+        cursor: pointer;
     }
 }
 
 .friendly-designer a:hover{
 transition: 1s;
 font-size: 36px;
- font-variation-settings: "wght" 300, "wdth" 600;/* Valeurs finales */
+ font-variation-settings: "wght" 700, "wdth" 600;/* Valeurs finales */
 }
 
+
+.ovale-anim3 {
+    width: 80vmax;
+    height: 70vmax;
+    position: absolute;
+    background:radial-gradient(
+        circle at 93.3% 75%,
+        rgba(242,182,4, 0.5),
+        rgba(242,89,75, 0.6) 70.71%
+      )#F2B366;
+    left: 5vmin;
+    top: 0vmin;
+    animation: metamorph 14s linear infinite alternate,spin 20s linear infinite;
+    z-index: 1;
+   will-change: border-radius,transform;
+    transform-origin: 50% 55%;
+    opacity: .4;
+    pointer-events: none
+}
+
+.ovale-anim2 {
+    width: 520px;
+    height: 610px;
+    background-color: #BF8563;
+    position:absolute; 
+    top:90px;
+    right:0;
+    z-index: 2;
+    opacity: .6;
+    animation: bubblin 6s linear infinite;
+    @media only screen and (max-width:775px){
+        top:145px;
+        width: 300px;
+        height: 360px;
+    }
+}
+  .ovale-anim {
+    width: 500px;
+    height: 600px;
+    overflow: hidden; 
+    position:absolute; 
+    top:100px;
+    right:1%;
+    z-index: 3;
+    animation: bubblin 7s linear infinite;
+    cursor: pointer;
+    @media only screen and (max-width:775px){
+        top:150px;
+        width: 300px;
+        height: 360px;
+    }
+    img{
+        width: 100%;
+        object-fit: cover;
+        transition: .4s;
+        &:hover{
+            transform: scale(1.2);
+            box-shadow:  12px 12px 2px 1px rgba(0, 0, 255, .8);;
+            filter: sepia(0.6);
+           
+        }
+    }
+  }

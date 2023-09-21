@@ -70,37 +70,36 @@ ul {
    
   }
 }
-.host {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+.web-link {
   position: absolute;
-  top: -10px;
+  top: 10px;
   right: 0px;
+ 
   @media only screen and (max-width: 775px) {
     top: 127px;
   }
-  .host-name {
-    color: $red;
-    text-align: right;
+  a{
+    font-family: "montserrat";
+    font-weight: 600;
     font-size: 18px;
-    max-width: 93px;
-    margin: 10px 10px auto auto;
-    @media only screen and (max-width: 775px) {
-      font-size: 12px;
-      max-width: 72px;
-      margin: 8px 5px auto auto;
-    }
+    color:#F2594B;
+    text-decoration: none;
   }
-  img {
-    border-radius: 50%;
-    width: 64px;
-    height: 64px;
-    @media only screen and (max-width: 775px) {
-      width: 40px;
-      height: 40px;
-    }
-  }
+}
+.web-link a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 18%;
+  height: 2px;
+  background-color: #FF5733;
+  transition: width 0.3s ease-out;
+}
+
+.web-link a:hover::before {
+  width: 100%;
+
 }
 .stars {
   position: absolute;
@@ -128,19 +127,20 @@ ul {
 
   .tag {
     display: flex;
-    background-color: #BF8563;
-    color: white;
+    font-family: 'Montserrat';
+    background-color: #F2F2F2;
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
-    font-size: 14px;
-    height: 25px;
+    font-size: 15px;
     font-weight: 500;
+    height: 25px;
+    font-weight: 700;
     min-width: 115px;
     line-height: 20px;
     padding: 0 10px;
     @media only screen and (max-width: 775px) {
-      font-size: 10px;
+      font-size: 12px;
       min-width: 65px;
       height: 18px;
     }
@@ -151,6 +151,7 @@ ul {
   max-width: 1240px;
   margin:auto;
 img{
+  width: 100%;
   margin: 20px auto;
   border-radius: 5px;
   box-shadow: rgba(38,7,0,0.3) 0px 15px 20px -8px;
@@ -159,14 +160,12 @@ img{
 
 //NExt projet
 .next-projet{
-
   width: 90%;
   max-width: 1240px;
   margin:22px auto 30px auto;
   border-top: solid 2px #7e7e7e;
   button{
     margin: 0 33% 0 0;
-    
   }
   a{
     margin: 20px auto;
@@ -182,7 +181,7 @@ img{
       font-variation-settings: "wght" 600, "wdth" 300;
       text-transform: uppercase;
       text-align: left;
-      margin:0 auto;
+      margin:0 auto 0 33px;
       transition: .6s;
       @media only screen and (max-width: 775px) {
         font-size: 18px;
@@ -198,7 +197,7 @@ img{
       align-items: flex-start;
       align-content: flex-start;
 p{
-  margin:0px auto auto 0;
+  margin:0px auto auto 33px;
 }
     }
   }

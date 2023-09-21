@@ -1,3 +1,11 @@
+@font-face {
+   font-family: 'Free';
+   src: url('../../assets/Variable/Free-variable.ttf')  format('truetype');
+    font-weight: 100 800; /* Gamme de graisses disponibles */
+   font-stretch: 100 800; /* Gamme de largeurs disponibles */
+ }   
+   
+   
    //Colors
 
    $white:#FFFFFF;
@@ -22,6 +30,7 @@ $Athena-AI-4-rgba: rgba(242,31,12, 1);
 $Athena-AI-5-rgba: rgba(242,242,242, 1);
 
 /* Color Theme Swatches in Hex */
+$Spicetest: #2b2b33;;
 $Spices-1-hex: #F2B366;
 $Spices-2-hex: #BF8563;
 $Spices-3-hex: #260801;

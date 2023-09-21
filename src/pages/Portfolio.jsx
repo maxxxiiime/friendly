@@ -6,7 +6,7 @@ import Card from '../components/cards/Cards';
 import Filter from '../components/filter/Filter'; 
 
 
-import './styles/home.scss';
+import './styles/portfolio.scss';
 
 
 export default function Portfolio() {
@@ -21,7 +21,6 @@ export default function Portfolio() {
     <div>
       <div className='grunge'></div>
       <Header />
-   
    
         <Filter
           categories={categories}

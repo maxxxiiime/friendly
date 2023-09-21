@@ -3,32 +3,36 @@ import { Link, useParams } from "react-router-dom";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import CardsDatas from "../datas/projets.json";
-import Slider from "../components/slider/Slider";
 import Collapse from "../components/Collapse/Collapse";
 import Rating from "../components/rating/Rating";
 import Banner from '../components/banner/Banner';
 import Error from "./Error";
 import ProjectLink from "../components/link/ProjectLink";
-
+import Loader from "../components/loader/Loader"
 import "./styles/projet.scss";
 
 export default function Projet() {
-  const { id } = useParams(); // Utilisez useParams pour extraire l'ID du projet depuis l'URL
+  const { id } = useParams(); // useParams pour extraire l'ID du projet depuis l'URL
   const [projet, setProjet] = useState(null);
+  const [loading, setLoading] = useState(true); // Ajoute un état de chargement
 
   useEffect(() => {
-    // Recherchez le projet correspondant à l'ID dans CardsDatas
+    // Recherche le projet correspondant à l'ID dans CardsDatas
     const projetFound = CardsDatas.find((card) => card.id === id);
 
     if (projetFound) {
       setProjet(projetFound);
+      setLoading(false);
       window.scrollTo(0, 0);
     } else {
-      // Si aucun projet n'est trouvé, redirigez vers la page d'erreur
+      // Si aucun projet n'est trouvé, loader puis la page d'erreur
       setProjet(null);
+      setLoading(false);
     }
   }, [id]);
-
+  if (loading) {
+    return <Loader />;
+  }
   if (!projet) {
     return <Error />;
   }
@@ -48,7 +52,6 @@ export default function Projet() {
     color: nextProject.color
   };
 
-
   return (
     <div>
       <Header />
@@ -61,21 +64,19 @@ export default function Projet() {
         <div className="text-description">
           <p style={projetColor}>{projet.description}</p>
         </div>
-        <Slider image={projet.pictures} />
+       
         <div className="tags-n-rating">
-          <div className="tags">
+          <div className="tags" style={projetColor}>
             {projet.tags.map((tag, index) => (
-              <div key={index} className="tag">
+              <div key={index} className="tag" style={projetColor}>
                 {tag}
               </div>
             ))}
           </div>
           <Rating ratingValue={projet.rating} />
         </div>
-        <div className="host">
+        <div className="web-link">
         <ProjectLink link={projectLink} />
-          <div className="host-name">{projet.host.name}</div>
-          <img src={projet.host.picture} alt={projet.host.name} />
         </div>
 
         <div className="collapse-logement">

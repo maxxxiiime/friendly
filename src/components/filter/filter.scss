@@ -1,9 +1,8 @@
 @font-face {
     font-family: 'Free';
     src: url('../../assets/Variable/Free-variable.ttf')  format('truetype');
-    /* Autres formats de police peuvent être ajoutés ici */
-     font-weight: 100 800; /* Gamme de graisses disponibles */
-    font-stretch: 100 800; /* Gamme de largeurs disponibles */
+    font-weight: 100 800; 
+    font-stretch: 100 800; 
 }
 
 .filter{
@@ -13,6 +12,9 @@
     margin: 130px auto 5px auto;
     padding-bottom: 20px;
     position: relative;
+    @media only screen and (max-width: 775px) {
+      padding-bottom: 0;
+    }  
 }
 
 button {
@@ -34,8 +36,8 @@ button {
     @media only screen and (max-width: 775px) {
       min-width: 15%;
       letter-spacing: 0px;
-      font-size: 10px;
-      margin: 5px 2px;
+      font-size: 12px;
+      margin: 5px 6px;
       padding: 5px 10px;
     }
   }

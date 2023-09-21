@@ -1,64 +1,4 @@
 
-// .nav-header {
-//   display: flex;
-//   width: 90%;
-//   max-width: 1240px;
-//   justify-content: space-between;
-//   align-items: center;
-//   margin: 10px auto;
-// }
-
-// .kasa-logo {
-//   width: 210px;
-//   @media only screen and (max-width: 775px) {
-//     width: 145px;
-//   }
-// }
-// .navigation-menu {
-//   ul {
-//     display: flex;
-//     list-style: none;
-
-//     a::before {
-//       content: ""; /* Ajouter un contenu vide pour le pseudo-élément */
-//       position: absolute; /* Le pseudo-élément est positionné par rapport à son parent */
-//       left: 0; /* Commencez à gauche */
-//       bottom: -2px; /* Déplacez-le légèrement en dessous du texte */
-//       width: 0; /* Commencez avec une largeur nulle */
-//       height: 2px; /* Hauteur du soulignage */
-//       background-color: #FF5733; /* Couleur du soulignage */
-//       transition: width 0.3s ease; /* Ajouter une transition pour l'animation */
-//   }
-//   a:hover::before {
-//     width: 100%; /* Augmentez la largeur pour atteindre 100% */
-// }
-//     a {
-//       color: #ff6060;
-//       text-decoration: none;
-//       font-size: 24px;
-//       margin: 30px;
-
-//       font-family: "Monserrat", sans-serif;
-//       font-weight: 500;
-
-//       text-decoration: none;
-//       font-size: 24px;
-//         @media only screen and (max-width: 775px) {
-//             font-size: 12px;
-//             margin: 6px;
-//         }
-     
-
-        // &:hover,
-        // &.active,
-        // &:active {
-        //     text-decoration: underline;
-        //     text-decoration-style:wavy;
-          
-        // }
-//     }
-//   }
-// }
 @font-face {
   font-family: 'Movement';
   src: url('../../assets/Variable/Movement.ttf')  format('truetype');
@@ -72,10 +12,9 @@
   max-height: 67px;
   width: 100%;
   top:0;
-z-index: 3;
   background: linear-gradient(to right, #242426, #000);
   box-shadow: rgba(38,7,0,0.3) 0px 15px 20px -8px;
-
+  z-index: 3;
 }
 .nav-header-content {
   display: flex;
@@ -84,11 +23,12 @@ z-index: 3;
   justify-content: space-between;
   align-items: center;
   margin: 10px auto;
-  
+
 }
 
 .kasa-logo {
   width: 210px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 775px) {
@@ -113,36 +53,24 @@ z-index: 3;
   font-weight: 900;
   text-decoration: none;
   transition: all 0.6s ease;
-  // font-variation-settings: "wght" 260, "wdth" 100; free
   font-variation-settings: 'wght' 800, 'SPAC' 100; 
+  cursor: pointer;
 }
 .navigation-menu a:hover  {
-  // letter-spacing: 2px;
-  // animation: changeFontVariation 0.7s ease;
-  // animation-fill-mode: forwards; /* Conserve l'état final de l'animation */
   transition: .7s;
   font-size: 36px;
-   font-variation-settings: 'wght' 400, 'SPAC' 118; /* Valeurs finales movement */
-  //  font-variation-settings: "wght" 260, "wdth" 800;/* Valeurs finales movement */free
+  font-variation-settings: 'wght' 400, 'SPAC' 118; 
+  cursor: pointer;
 
 }
 .navigation-menu a.active  {
-  // letter-spacing: 2px;
   font-variation-settings: 'wght' 400, 'SPAC' 118;
   font-size: 36px;
-
+    @media only screen and (max-width:775px){
+      font-size: 12px;
+  }
 }
 
-
-// @keyframes changeFontVariation {
-//   from {
-//     font-variation-settings: 'wght' 800, 'SPAC' 100; /* Valeurs initiales */
-//   }
-//   to {
-//     font-variation-settings: 'wght' 400, 'SPAC' 118; /* Valeurs finales */
-//   }
-// }
-//font-variation-settings: "wght" 260, "wdth" 800;
 
 @media only screen and (max-width: 775px) {
   .navigation-menu a {
@@ -164,7 +92,6 @@ z-index: 3;
 
 .navigation-menu a:hover::before {
   width: 100%;
-
 }
 
 .navigation-menu a.active::before {

@@ -5,9 +5,8 @@ import './card.scss'
 export default function Card({ id,cover, title }) {
   return (
     <Link to={`/projet/${id}`}>
-      <div className="logement-card">
-        <div className='overlay-degrade'></div>  
-        <img src={cover} alt={title} className='logement-card_img' />
+      <div className="project-card">
+        <img src={cover} alt={title} className='project-card_img' />
         
         <h3>{title}</h3>
       </div>

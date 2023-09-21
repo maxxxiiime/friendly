@@ -1,23 +1,22 @@
 [
 	{
 		"id": "c67ab8a7",
-		"title": "ohmyfood",
+		"title": "Ohmyfood",
 		"cover": "https://maxxxiiime.github.io/ohmyfood/ohmyfood-ipad-2023-09-16-600px.gif",
 		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
 		"pictures": [
 			"https://maxxxiiime.github.io/ohmyfood/1-ohmyfood-1240px.webp",
 			"https://maxxxiiime.github.io/ohmyfood/2-ohmyfood-1240px.webp",
-			"https://maxxxiiime.github.io/ohmyfood/3-ohmyfood-1240px.webp",
-			"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg"
-			
+			"https://maxxxiiime.github.io/ohmyfood/3-ohmyfood-1240px.webp"
+	
 		],
-		"description": " Pour permettre la commande de repas en ligne en donnant la possibilitée aux utilisateurs de composer leur propre menu. J'ai réalisé le site de l'entreprise ohmyfood en adoptant une approche 'mobile first', j'ai implémenté une page d'accueil, quatre pages de menus de restaurants, ainsi qu'un élément de chargement (loader).",
+		"description": " Pour permettre la commande de repas en ligne en donnant la possibilitée aux utilisateurs de composer leur propre menu. J'ai réalisé le site de l'entreprise Ohmyfood en adoptant une approche 'mobile first', j'ai developpé la page d'accueil, quatre pages de restaurants avec leurs menus, en y ajoutant plusieurs animations SASS ainsi qu'un élément de chargement (loader).",
 		"host": {
 			"name": "Nathalie Jean",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"rating": "5",
-		"subtitle": "Conception web - commande de repas en ligne",
+		"subtitle": "Commande de repas en ligne",
 		"equipments": [
 			"Équipements de base",
 			"Micro-Ondes",
@@ -41,7 +40,7 @@
 	},
 	{
 		"id": "b9123946",
-		"title": "Nina",
+		"title": "Nina Carducci",
 		"cover": "https://maxxxiiime.github.io/ninacarducci/assets/images/ninacarducci-preview-800.webp",
 		"thecover": "https://maxxxiiime.github.io/ninacarducci/3-ninacarducci-1240px.jpg",
 		"pictures": [
@@ -56,7 +55,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
 		},
 		"rating": "4",
-		"subtitle": "Optimisation Site Web Photographe Professionelle",
+		"subtitle": "Photographe Professionelle",
 		"equipments": [
 			"Parking",
 			"Sèche Cheveux",
@@ -87,11 +86,11 @@
 		"thecover": "https://i.ibb.co/9ZP5HGT/kokomo-thecover-1240.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
-			"https://i.ibb.co/r70sWmd/KOKOMO-small-over.jpg",
+			"https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-4.jpg"
+			"https://i.ibb.co/q5C1CsZ/kkm-tshirt.png"
 		],
-		"description": "À seulement deux pas des Buttes Chaumont, venez découvrir Paris dans ce studio tout équipé. Entièrement équipé pour votre confort et élégamment décoré, il vous permettra de vivre comme un Parisien le temps de votre séjour.",
+		"description": "Les pieds dans le sable, le Kokomo est un Beach Bar & Restaurant basé à Sint Maarten. J'ai réalisé l'identité visuelle en me basant sur le nom Kokomo. Le logo a volontairement un air empreinté au symbole 'Peace & Love' mais avec les deux 'K' mis l’uns contre l’autres et le cercle pour les 3 'O'.Ce qui forme aussi le 'M'. On peut ainsi y voir toute les lettres de 'KOKOMO'. La typographie La police Monoton présente un tracé strié qui évoque le dynamisme et le luxe, mais rappelle aussi le nautisme et la 'marinière' avec ces rayures bleu marine.",
 		"host": {
 			"name": "Franck Maher",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
@@ -197,42 +196,12 @@
 			"#47A603"
 		]
 	},
-	{
-		"id": "f72a452f",
-		"title": "Studio d'artiste",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
-		"thecover": "https://i.ibb.co/9ZP5HGT/kokomo-thecover-1240.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-5.jpg"
-		],
-		"description": "Venez vous imprégner de la culture parisienne dans cet ancien studio d'artiste décoré avec goût, au coeur de Montmartre.",
-		"host": {
-			"name": "Line Rolland",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
-		},
-		"rating": "5",
-		"subtitle": "Ile de France - Paris 18e",
-		"equipments": [
-			"Chambre Séparée",
-			"Parking"
-		],
-		"tags": [
-			"Montmartre",
-			"Culture",
-			"Charme"
-		],
-		"filter": [
-			"Branding"
-		]
-	},
+	
 	{
 		"id": "b4c67936",
 		"title": "Cheap - Studio 18ème",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
+		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-2.jpg",
@@ -268,6 +237,7 @@
 		"id": "cb2f9222",
 		"title": "Suite familiale",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-1.jpg",
+		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-1.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-2.jpg",
@@ -302,6 +272,7 @@
 		"id": "d60ca600",
 		"title": "Appartement moderne sur parc",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg",
+		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-2.jpg",
@@ -335,45 +306,10 @@
 	},
 
 	{
-		"id": "5323c29b",
-		"title": "Studio fonctionnel République",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-5.jpg"
-		],
-		"description": "Idéalement situé à 2 pas de la place de la République, ce studio particulièrement fonctionnel est parfait pour découvrir Paris. Proche de tous les points d'intérêts grâce aux 5 lignes de métro qui sont à 5 minutes, vous pourrez rentabiliser votre temps passé à la capitale.",
-		"host": {
-			"name": "Sarah Devit",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
-		},
-		"rating": "3",
-		"subtitle": "Ile de France - Paris 3e",
-		"equipments": [
-			"Rangements",
-			"Lit",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"TV",
-			"Bouilloire"
-		],
-		"tags": [
-			"Marais",
-			"République",
-			"Studio",
-			"Proche Métros",
-			"Commerces"
-		],
-		"filter": [
-			"Branding"
-		]
-	},
-	{
 		"id": "cb02d69b",
 		"title": "Magnifique appartement Rivoli",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-19-1.jpg",
+		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-19-1.jpg"
 		],

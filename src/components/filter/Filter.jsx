@@ -6,7 +6,7 @@ export default function Filter({ categories, selectedCategory, onSelectCategory 
   return (
     <div className="filter">
       <Txtportfolio />
-      <p>Voici quelques exemples de mes réalisations</p> 
+      <p>Filtres :</p> 
       <button
         className={selectedCategory === '' ? 'active' : ''}
         onClick={() => onSelectCategory('')}

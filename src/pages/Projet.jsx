@@ -79,8 +79,9 @@ export default function Projet() {
         <ProjectLink link={projectLink} />
         </div>
 
-        <div className="collapse-logement">
+        <div className="collapse-logement"  style={projetColor}>
           <Collapse
+            color={projetColor}
             title=" Description"
             content={projet.description}
             className="description-collapse"

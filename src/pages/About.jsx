@@ -1,8 +1,7 @@
 import React from "react";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-import Banner from "../components/banner/Banner";
-import slide2 from "../assets/slide2.jpg";
+import { SkillsData } from "../datas/SkillsData";
 import Collapse from "../components/Collapse/Collapse";
 import "./styles/about.scss";
 
@@ -12,9 +11,19 @@ export default function About() {
     <div className="main">
       <Header />
       <div className="main-content">
-        <Banner image={slide2} text="Des idées sur tout,
-     et surtout des idées"  />
-
+      <h2>Compétences</h2>
+        <div className="skills-container">
+          
+      {SkillsData[0].skills.map((skill) => (
+        <div className="one-skill" key={skill.id}>
+         
+          <p>{skill.description}</p>
+          <a href={skill.link} target="_blank" rel="noopener noreferrer">
+          <img src={skill.image[0]} alt={skill.titre} />
+          </a>
+        </div>
+      ))}
+    </div>    
         <div className="collapse_content_about">
           <Collapse
             title=" Fiabilité"

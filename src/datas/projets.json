@@ -4,6 +4,18 @@
 		"title": "Ohmyfood",
 		"cover": "https://maxxxiiime.github.io/ohmyfood/ohmyfood-ipad-2023-09-16-600px.gif",
 		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
+		"images":[
+			{"description": "page d'accueil",
+			"picture": "https://maxxxiiime.github.io/ohmyfood/1-ohmyfood-1240px.webp"
+			},
+			{"description": "Choix du menu",
+			"picture": "https://maxxxiiime.github.io/ohmyfood/2-ohmyfood-1240px.webp"
+			},
+			{"description": "Test",
+			"picture": "https://maxxxiiime.github.io/ohmyfood/3-ohmyfood-1240px.webp"
+			}		
+			],
+
 		"pictures": [
 			"https://maxxxiiime.github.io/ohmyfood/1-ohmyfood-1240px.webp",
 			"https://maxxxiiime.github.io/ohmyfood/2-ohmyfood-1240px.webp",
@@ -43,11 +55,22 @@
 		"title": "Nina Carducci",
 		"cover": "https://maxxxiiime.github.io/ninacarducci/assets/images/ninacarducci-preview-800.webp",
 		"thecover": "https://maxxxiiime.github.io/ninacarducci/3-ninacarducci-1240px.jpg",
+		"images":[
+			{"description": "page d'accueil",
+			"picture": "https://maxxxiiime.github.io/ninacarducci/0-ninacarducci-1240px.webp"
+			},
+			{"description": "Choix du menu",
+			"picture": "https://maxxxiiime.github.io/ninacarducci/1-ninacarducci-1240px.webp"
+			},
+			{"description": "Test",
+			"picture": "https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp"
+			}		
+			],
+
 		"pictures": [
 			"https://maxxxiiime.github.io/ninacarducci/0-ninacarducci-1240px.webp",
 			"https://maxxxiiime.github.io/ninacarducci/1-ninacarducci-1240px.webp",
-			"https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
+			"https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp"
 		],
 		"description": "Optimisation du site web de Nina Carducci, photographe professionnelle expérimentée basée à Bordeaux, spécialisée en portraits & événementiel.",
 		"host": {
@@ -85,7 +108,6 @@
 		"cover": "https://i.ibb.co/KqdTgVs/kokomo-logo.png",
 		"thecover": "https://i.ibb.co/9ZP5HGT/kokomo-thecover-1240.jpg",
 		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
 			"https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-3.jpg",
 			"https://i.ibb.co/q5C1CsZ/kkm-tshirt.png"
@@ -123,7 +145,6 @@
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-3.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-4.jpg"
 		],
 		"description": "Venez découvrir Paris en séjournant dans ce nid douillet au coeur du 11ème. La vue sur le parc résidentiel saura vous reposer de vos longues journées de tourisme dans la capitale française. Et pour les plus fêtards d'entre vous, la rue Jean Pierre Timbaud vous permettra de découvrir la night-life parisienne à seulement 5 minutes de l'appartement.",
@@ -159,21 +180,35 @@
 		"title": "Parc en Fête",
 		"cover": "https://i.ibb.co/3Rx5JBW/parcenfete.png",
 		"thecover": "https://i.ibb.co/9ZP5HGT/kokomo-thecover-1240.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-5.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-6.jpg"
+
+		"images":[
+			{"description": "page d'accueil",
+			"picture": "https://i.ibb.co/MgJSKyN/parcenfete.webp"
+			},
+			{"description": "Choix du menu",
+			"picture": "https://i.ibb.co/R62pyrG/habillage-BUS-Parc-En-Fete2014.webp"
+			},
+			{"description": "Test",
+			"picture": "https://i.ibb.co/ngsvbG8/parcenfete3.webp"
+			},
+			{"description": "Test",
+			"picture": "https://i.ibb.co/wr9x2pY/parcenfete.webp"
+			}	
 		],
-		"description": "Ce loft entièrement rénové, et équipé de meubles de luxe saura vous séduire. Idéalement situé dans le 10ème arrondissement, vous déplacer dans Paris sera un véritable jeu d'enfant.",
+		
+		"pictures": [
+			"https://i.ibb.co/MgJSKyN/parcenfete.webp",
+			"https://i.ibb.co/R62pyrG/habillage-BUS-Parc-En-Fete2014.webp",
+			"https://i.ibb.co/ngsvbG8/parcenfete3.webp",
+			"https://i.ibb.co/wr9x2pY/parcenfete.webp"
+		],
+		"description": "Le Festival Parc en Fête a lieu..",
 		"host": {
 			"name": "Franck Maher",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
 		"rating": "5",
-		"subtitle": "Ile de France - Paris 10e",
+		"subtitle": "Festival d'été",
 		"equipments": [
 			"Frigo Américain",
 			"Sèche Cheveux",

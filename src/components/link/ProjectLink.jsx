@@ -5,9 +5,9 @@ export default function ProjectLink({ link }) {
 
   if (hasLink) {
     return (
-      <div className="project-link">
+      <div className="project-link" >
         <a href={link[0]} target="_blank" rel="noopener noreferrer">
-        Voir le projet en ligne ➔
+        👁️ 👁️‍🗨️​Voir le projet en ligne ➔
         </a>
       </div>
     );

@@ -4,7 +4,6 @@ import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import CardsDatas from "../datas/projets.json";
 import Collapse from "../components/Collapse/Collapse";
-import Rating from "../components/rating/Rating";
 import Banner from '../components/banner/Banner';
 import Error from "./Error";
 import ProjectLink from "../components/link/ProjectLink";
@@ -56,15 +55,15 @@ export default function Projet() {
     <div>
       <Header />
       <Banner image={projet.thecover} text={projet.title} />
-      <div className="all-description">
+      <div className="all-description" style={projetColor}>
         <div className="_text-left">
           <h2 style={projetColor}>{projet.title}</h2>
           <p style={projetColor}>{projet.subtitle}</p>
         </div>
-        <div className="text-description">
-          <p style={projetColor}>{projet.description}</p>
+        <div className="web-link">
+        <ProjectLink link={projectLink} style={projetColor}/>
         </div>
-       
+
         <div className="tags-n-rating">
           <div className="tags" style={projetColor}>
             {projet.tags.map((tag, index) => (
@@ -73,44 +72,29 @@ export default function Projet() {
               </div>
             ))}
           </div>
-          <Rating ratingValue={projet.rating} />
         </div>
-        <div className="web-link">
-        <ProjectLink link={projectLink} />
-        </div>
+        
 
-        <div className="collapse-logement"  style={projetColor}>
+        <div className="collapse-description"  style={projetColor}>
           <Collapse
-            color={projetColor}
             title=" Description"
             content={projet.description}
             className="description-collapse"
             style={projetColor}
           />
-
-          <Collapse
-            title=" Équipements"
-            content={
-              <ul>
-                {projet.equipments.map((equipment, index) => (
-                  <li key={index}>{equipment}</li>
-                ))}
-              </ul>
-            }
-          />
         </div>
+        
       </div>
       <div className="images-container">
-        {projet.pictures.map((picture, index) => (
-          <img
-            key={index}
-            src={picture}
-            alt={"portfolio-img"}
-            className="project-image"
-          />
+        {projet.images.map((image, index) => (
+           <div key={index} className="project-image">
+            <p style={projetColor}>{image.description}</p>
+           <img src={image.picture} alt={image.description} />
+           
+         </div>
         ))}
       </div>
-          <div className="next-projet">
+          <div className="next-projet" style={nextProjectColor}>
           <Link to={`/projet/${getNextProject().id}`}>
             <button>NEXT</button>
             <div className="text-next-projet">

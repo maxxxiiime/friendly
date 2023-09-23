@@ -13,6 +13,7 @@ export default function Collapse({ title, content }) {
       <div className="collapse-bar_title" onClick={hideorShow}>
         <h2>{title}</h2>
         <div className="to-toggle-collapse">
+   
           <img
             src={IconCollapse}
             alt="icon collapse"

@@ -2,9 +2,66 @@
     width: 90%;
     max-width: 1240px;
     margin: 120px auto;
+    h2{
+        margin:20px auto 8px auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    }
+   
+}
+.cv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  a{
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+  }
+    button {
+        text-transform: lowercase;
+        font-family: "Montserrat";
+     font-weight: 300;
+      color: #fff; // Couleur du texte
+      border: none; // Supprimer la bordure
+      padding: 10px 20px; // Espacement interne du bouton
+      font-size: 16px; // Taille de la police
+      background: linear-gradient(90deg, rgba(191,133,99, 1) 0%, rgba(114,2,2, 1) 100%);
+      cursor: pointer; // Curseur en main au survol
+  
+      // Styles pour les flèches et les lettres CV
+      span.letters-cv {
+        font-size: 18px;
+        text-transform: lowercase;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+ }
+.cv a::before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  bottom: -1px;
+  width: 11%;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.2s ease-out;
 }
 
+.cv a:hover::before {
+  width: 103%;
+}
+ 
 
+.button{
+    font-family: "Montserrat", sans-serif;
+}
 .skills-container{
     display: flex;
     width: 100%;
@@ -19,26 +76,32 @@ img{
     height: 100%;
     object-fit: cover;
     opacity: .6;
+    cursor: pointer;
     filter: saturate(0);
     transition: .3s;
+    filter: drop-shadow(1px 2px 3px rgb(255, 255, 255));
+    
     &:hover{
         opacity: 1;
         filter: saturate(1);
+        filter: drop-shadow(1px 2px 12px rgb(255, 255, 255));
     }
 }
     .one-skill{
         margin: auto;
-       width: 100px;
+       width: 100%;
+       max-width: 100px;
        @media only screen and (max-width: 775px) {
-        width: 70px;
+        width: 58px;
       }
     }
     P{
         font-family: 'Montserrat';
         font-size: 15px;
         text-align: center;
+        margin: 12px auto 2px auto;
         @media only screen and (max-width: 775px) {
-            font-size: 12px;
+            font-size: 9px;
           }
     }
 }

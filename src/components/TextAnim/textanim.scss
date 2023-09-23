@@ -1,0 +1,11 @@
+.text-animation{
+    font-size: 34px;
+    text-align: left;
+    position: relative;
+  
+    @media only screen and (max-width:775px){
+        font-size: 17px;
+      top:150px;
+        
+    }
+}

@@ -28,15 +28,9 @@ ul {
   position: relative;
   // flex-wrap: wrap;
  
-.text-description{
-  font-family: 'montserrat';
-  max-width: 49%;
-  font-size: 15px;
-}
-
   ._text-left {
     text-align: left;
-    border-bottom: solid 2px #7e7e7e;
+    border-bottom: solid 2px;
     h2 {
       font-family: "Free";
       font-size: 38px;
@@ -72,18 +66,22 @@ ul {
 }
 .web-link {
   position: absolute;
-  top: 10px;
+  top: 4px;
   right: 0px;
  
   @media only screen and (max-width: 775px) {
     top: 127px;
+    left: 0px;
   }
   a{
     font-family: "montserrat";
     font-weight: 600;
     font-size: 18px;
-    color:#F2594B;
+    // color:#2b2b33;
     text-decoration: none;
+    @media only screen and (max-width: 775px) {
+      font-size: 14px;
+    }
   }
 }
 .web-link a::before {
@@ -91,30 +89,23 @@ ul {
   position: absolute;
   left: 0;
   bottom: -2px;
-  width: 18%;
+  width: 26%;
   height: 2px;
-  background-color: #FF5733;
+  background-color: #2b2b33;
   transition: width 0.3s ease-out;
 }
 
 .web-link a:hover::before {
   width: 100%;
+}
 
-}
-.stars {
-  position: absolute;
-  top: 80px;
-  right: 0px;
-}
-.collapse-logement {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  gap: 5%;
+.collapse-description {
+  width: 50%;
+  margin: 3px auto auto 0;
+  
   @media only screen and (max-width: 775px) {
-    display: column;
-    flex-wrap: wrap;
-    margin-top: 33px;
+    margin: 33px auto auto 0;
+    width: 100%;
   }
 }
 
@@ -150,11 +141,23 @@ ul {
   width: 90%;
   max-width: 1240px;
   margin:auto;
+  // background-color: #dbdbdb;
 img{
   width: 100%;
-  margin: 20px auto;
+  margin: 10px auto 20px auto;
   border-radius: 5px;
   box-shadow: rgba(38,7,0,0.3) 0px 15px 20px -8px;
+}
+.project-image{
+  p{
+    max-width: 33%;
+    font-family: "Montserrat";
+    margin: 20px auto 2px 0;
+    padding: 3px;
+    text-align: left;
+    font-size: 15px;
+    // background: linear-gradient(90deg,rgba(255, 255, 255,0.3), transparent);
+  }
 }
 }
 
@@ -163,9 +166,43 @@ img{
   width: 90%;
   max-width: 1240px;
   margin:22px auto 30px auto;
-  border-top: solid 2px #7e7e7e;
+  border-top: solid 2px ;
   button{
     margin: 0 33% 0 0;
+
+      font-family: 'Free';
+      font-size: 18px;
+      text-transform: uppercase;
+      font-variation-settings: "wght" 600, "wdth" 100;
+      letter-spacing: 2px;
+      min-width: 18%;
+ 
+      padding: 8px 15px;
+      background-color: #260801; 
+      color: #fff; 
+      border-radius: 15px;
+      border:none;
+      cursor: pointer;
+      transition: .7s; /* Vitesse ICI */
+  
+      @media only screen and (max-width: 775px) {
+        min-width: 15%;
+        letter-spacing: 0px;
+        font-size: 12px;
+        margin: 5px 6px;
+        padding: 5px 10px;
+      }
+    
+  }
+  button:hover {
+    transition: .7s;
+    background-color: #730202; 
+    color: #fff; 
+    border-radius: 3px;
+    font-variation-settings: "wght" 400, "wdth" 700;
+    @media only screen and (max-width: 775px) {
+      font-variation-settings: "wght" 500, "wdth" 400;
+    }
   }
   a{
     margin: 20px auto;

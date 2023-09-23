@@ -17,9 +17,9 @@ export default function Home() {
 
         <div className='friendly-designer'>
         <NavLink to={"/about"}><h1>MAXIME JOUFFREY</h1></NavLink>
-         
-          
+
         <TextAnim />
+       
           <NavLink to={"/about"}>
             <div className='ovale-anim'>
             <img src={Profilimg} alt='profil' />
@@ -27,7 +27,7 @@ export default function Home() {
             <div className='ovale-anim2'></div>
             <div className='ovale-anim3'></div>
           </NavLink>
-        </div>
+          </div>
         <Footer />
     </div>
   );

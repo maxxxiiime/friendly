@@ -24,7 +24,7 @@ const SkillsData = [
         {
           id: 2,
           titre: "CSS",
-          description: "Css",
+          description: "CSS",
           image: [css],
           link: "https://www.w3schools.com/css/",
         },
@@ -38,7 +38,7 @@ const SkillsData = [
         {
           id: 4,
           titre: "Javascript",
-          description: "Javascript",
+          description: "JavaScript",
           image: [js],
           link: "https://www.javascript.com/",
         },

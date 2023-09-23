@@ -4,6 +4,7 @@
     font-weight: 100 800; /* Gamme de graisses disponibles */
     font-stretch: 100 800; /* Gamme de largeurs disponibles */
 }
+
 .grunge {
     position: fixed;
     z-index: 99;
@@ -17,7 +18,8 @@
     background-size: 200px;
     background-repeat: repeat;
     opacity: .3;
-    pointer-events: none
+    pointer-events: none;
+    overflow: hidden;
   }
   @keyframes grain {
     0%,to {
@@ -100,12 +102,15 @@
     }
 }
 .container{
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100vh;
+
 }
 h1{
     color: #730202;
     display: flex;
-    margin:100px auto 110px 0;
+    margin:20px auto 30px 0;
     font-size: 70px;
     width: 50%;
     max-width: 1240px;
@@ -115,8 +120,8 @@ h1{
      align-items: flex-start;
      cursor: pointer;
      @media only screen and (max-width:775px){
-        margin: 23px auto 110px 0;
-        font-size: 35px;
+        margin: 23px auto 100px 0;
+        font-size: 28px;
     }
      
 }
@@ -124,16 +129,21 @@ h1{
 .friendly-designer{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 90%;
     max-width: 1240px;
     height: 70vh;
-    margin: 100px auto;
+    margin: 150px auto 0 auto;
     font-family: 'Free';
     font-size: 34px;
     text-align: left;
     position: relative;
+    // overflow: hidden;
     @media only screen and (max-width:775px){
-        font-size: 22px;
+        margin: 100px auto 0 auto;
+        font-size: 24px;
+        justify-content: space-between;
+
     }
     a{
         transition: .5s;
@@ -161,49 +171,55 @@ font-size: 36px;
       )#F2B366;
     left: 5vmin;
     top: 0vmin;
-    animation: metamorph 14s linear infinite alternate,spin 20s linear infinite;
+    animation: metamorph 16s linear infinite alternate,spin 20s linear infinite;
     z-index: 1;
    will-change: border-radius,transform;
     transform-origin: 50% 55%;
-    opacity: .4;
-    pointer-events: none
+    opacity: .2;
+    pointer-events: none;
+    overflow: hidden;
+        
 }
 
 .ovale-anim2 {
-    width: 520px;
-    height: 610px;
+    width: 460px;
+    height: 565px;
     background-color: #BF8563;
     position:absolute; 
-    top:90px;
-    right:0;
+    top:148px;
+    right:10%;
     z-index: 2;
     opacity: .6;
-    animation: bubblin 6s linear infinite;
+    animation: bubblin 7s linear infinite;
+    overflow: hidden;
     @media only screen and (max-width:775px){
-        top:145px;
-        width: 300px;
-        height: 360px;
+        top:118px;
+       
+        width: 284px;
+        height: 344px;
     }
 }
   .ovale-anim {
-    width: 500px;
-    height: 600px;
+    width: 100%;
+    max-width: 450px;
+    max-height: 560px;
     overflow: hidden; 
     position:absolute; 
-    top:100px;
-    right:1%;
+    top:150px;
+    right:10%;
     z-index: 3;
-    animation: bubblin 7s linear infinite;
+    animation: bubblin 8s linear infinite;
     cursor: pointer;
     @media only screen and (max-width:775px){
-        top:150px;
-        width: 300px;
-        height: 360px;
+        top:120px;
+        width: 280px;
+        height: 340px;
     }
     img{
         width: 100%;
+        height: 100%;
         object-fit: cover;
-        transition: .4s;
+        transition: .5s;
         &:hover{
             transform: scale(1.2);
             box-shadow:  12px 12px 2px 1px rgba(0, 0, 255, .8);;

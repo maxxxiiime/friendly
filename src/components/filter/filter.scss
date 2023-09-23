@@ -15,7 +15,7 @@
     @media only screen and (max-width: 775px) {
       padding-bottom: 0;
     }  
-}
+
 
 button {
     font-family: 'Free';
@@ -65,3 +65,15 @@ button {
   p{
     font-family: 'Montserrat';
   }
+  .main-content{
+    width: 90%;
+    max-width: 1240px;
+    margin: 120px auto;
+    h2{
+        margin:20px auto 8px auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    }
+   
+}
+}

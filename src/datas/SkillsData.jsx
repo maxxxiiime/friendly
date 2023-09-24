@@ -9,7 +9,7 @@ import indesign from '../assets/Skillsicons/Adobe_InDesign_CC_icon.svg';
 import photoshop from '../assets/Skillsicons/Adobe_Photoshop_CC_icon.svg';
 import sass from '../assets/Skillsicons/sass-sq.svg';
 import ae from '../assets/Skillsicons/Adobe_After_Effects_CC_icon.svg'
-
+import wp from '../assets/Skillsicons/wp-Logo.svg'
 
 const SkillsData = [
     {
@@ -58,27 +58,34 @@ const SkillsData = [
         },
         {
           id: 7,
+          titre: "Wordpress",
+          description: "Wordpress",
+          image: [wp],
+          link: "https://fr.wordpress.org/",
+        },
+        {
+          id: 8,
           titre: "Adobe",
           description: "Adobe",
           image: [adobe],
           link: "https://www.adobe.com/",
         },
         {
-          id: 8,
+          id: 9,
           titre: "Illustrator",
           description: "Illustrator",
           image: [illustrator],
           link: "https://www.adobe.com/fr/products/illustrator",
         },
         {
-          id: 9,
+          id: 10,
           titre: "Indesign",
           description: "Indesign",
           image: [indesign],
           link: "https://www.adobe.com/fr/products/indesign",
         },
         {
-          id: 10,
+          id: 11,
           titre: "After Effects",
           description: "After Effects",
           image: [ae],
@@ -86,7 +93,7 @@ const SkillsData = [
         },
        
         {
-          id: 11,
+          id: 12,
           titre: "Photoshop",
           description: "Photoshop",
           image: [photoshop],

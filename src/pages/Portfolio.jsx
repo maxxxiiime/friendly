@@ -11,7 +11,7 @@ import './styles/portfolio.scss';
 
 export default function Portfolio() {
   const [selectedCategory, setSelectedCategory] = useState('');
-  const categories = ['Web', 'Branding', 'Video'];
+  const categories = ['Web', 'Branding', 'Motion'];
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);

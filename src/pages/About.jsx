@@ -9,7 +9,7 @@ import slide1 from "../assets/slide1.jpg"
 
 export default function About() {
 
-   //toutes les compétences en une seule chaîne de texte
+   //toutes les compétences en une seule variablee
    const allSkillsContent = SkillsData[0].skills.map((skill) => (
     <div className="one-skill" key={skill.id}>
       <p>{skill.description}</p>
@@ -20,6 +20,7 @@ export default function About() {
   ));
   return (
     <div className="main">
+      <div className='grunge'></div>
       <Header />
       <div className="main-content">
         <div className="cv">
@@ -29,23 +30,22 @@ export default function About() {
       </a>
         </button>
         </div>
-      <h2>Compétences</h2>
-        <div className="skills-container">
-          
-      {SkillsData[0].skills.map((skill) => (
-        <div className="one-skill" key={skill.id}>
-         
-          <p>{skill.description}</p>
-          <a href={skill.link} target="_blank" rel="noopener noreferrer">
-          <img src={skill.image[0]} alt={skill.titre} />
-          </a>
-        </div>
-      ))}
-    </div>    
+      <h2>Designer graphique, 
+      UX/UI <br></br>& Développeur web front-end.
+</h2>
+<div className="quote-about">
+  <p>J'interviens sur la réalisation de projets de communication print et multimédia.</p>
+</div>
+   
         <div className="collapse_content_about">
         <Collapse
             title=" Compétences"
-            content={<div className="skills-container">{allSkillsContent}</div>}
+            content={<div className="skills-container">{allSkillsContent}
+          <div className="text-skills-collapse"><h4>Communication visuelle interactive</h4></div>
+             <ul><li><span className="colored">●</span> Conception d'univers graphique adaptés</li>
+            <li><span className="colored">●</span> Ergonomie et design</li>
+            <li><span className="colored">●</span> Graphisme web, édition et publicité.</li></ul>
+          </div>}
           />
           <Collapse
             title=" Respect"

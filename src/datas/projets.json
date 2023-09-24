@@ -2,25 +2,25 @@
 	{
 		"id": "c67ab8a7",
 		"title": "Ohmyfood",
-		"cover": "https://maxxxiiime.github.io/ohmyfood/ohmyfood-ipad-2023-09-16-600px.gif",
+		"cover": "https://i.ibb.co/4PF4ffw/ohmyfood-1240-cover.webp",
 		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
 		"images":[
-			{"description": "page d'accueil",
-			"picture": "https://maxxxiiime.github.io/ohmyfood/1-ohmyfood-1240px.webp"
-			},
-			{"description": "Choix du menu",
+			{"description": "Page d'accueil",
 			"picture": "https://maxxxiiime.github.io/ohmyfood/2-ohmyfood-1240px.webp"
 			},
-			{"description": "Test",
+			{"description": "page Restaurant",
+			"picture": "https://maxxxiiime.github.io/ohmyfood/1-ohmyfood-1240px.webp"
+			},
+			{"description": "Choix du menu mobil ",
+			"picture": "https://i.ibb.co/4PF4ffw/ohmyfood-1240-cover.webp"
+			},
+			
+			
+			{"description": "",
 			"picture": "https://maxxxiiime.github.io/ohmyfood/3-ohmyfood-1240px.webp"
 			}		
 			],
 
-		"pictures": [
-			"https://maxxxiiime.github.io/ohmyfood/1-ohmyfood-1240px.webp",
-			"https://maxxxiiime.github.io/ohmyfood/2-ohmyfood-1240px.webp",
-			"https://maxxxiiime.github.io/ohmyfood/3-ohmyfood-1240px.webp"
-		],
 		"description": " Pour permettre la commande de repas en ligne, en donnant la possibilité aux utilisateurs, de composer leur propre menu, j'ai réalisé le site de l'entreprise Ohmyfood, en adoptant une approche 'mobile friendly'. J'ai développé la page d'accueil, ainsi que quatre pages de restaurants avec leurs menus. En y ajoutant plusieurs animations en SASS, ainsi qu'un élément de chargement (loader).",
 		"host": {
 			"name": "Nathalie Jean",
@@ -58,19 +58,14 @@
 			{"description": "page d'accueil",
 			"picture": "https://maxxxiiime.github.io/ninacarducci/0-ninacarducci-1240px.webp"
 			},
-			{"description": "Choix du menu",
+			{"description": "Optimisation gallerie d'images",
 			"picture": "https://maxxxiiime.github.io/ninacarducci/1-ninacarducci-1240px.webp"
 			},
-			{"description": "Test",
+			{"description": "",
 			"picture": "https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp"
 			}		
 			],
 
-		"pictures": [
-			"https://maxxxiiime.github.io/ninacarducci/0-ninacarducci-1240px.webp",
-			"https://maxxxiiime.github.io/ninacarducci/1-ninacarducci-1240px.webp",
-			"https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp"
-		],
 		"description": "Optimisation du site web de Nina Carducci, photographe professionnelle expérimentée basée à Bordeaux, spécialisée en portraits & événementiel.",
 		"host": {
 			"name": "Della Case",
@@ -95,7 +90,7 @@
 			"Web"
 		],
 		"color": [
-			"#d84f1d"
+			"#c55e1a"
 			],
 		"link": [
 				"https://maxxxiiime.github.io/ninacarducci/"
@@ -107,19 +102,13 @@
 		"cover": "https://i.ibb.co/KqdTgVs/kokomo-logo.png",
 		"thecover": "https://i.ibb.co/9ZP5HGT/kokomo-thecover-1240.jpg",
 		"images":[
-			{"description": "page d'accueil",
+			{"description": "Exemples cartes de visites et flyer événementiel",
 			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp"
 			},
 			{"description": "Conception des T-shirts",
 			"picture": "https://i.ibb.co/q5C1CsZ/kkm-tshirt.png"
 			}		
 			],
-
-		"pictures": [
-			"https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-3.jpg",
-			"https://i.ibb.co/q5C1CsZ/kkm-tshirt.png"
-		],
 		"description": "Les pieds dans le sable, le Kokomo est un Beach Bar & Restaurant basé à Sint Maarten. J'ai réalisé l'identité visuelle en me basant sur le nom Kokomo. Le logo a volontairement un air emprunté au symbole 'Peace & Love', mais avec les deux 'K' mis l'un contre l'autre et le cercle pour les 3 'O', ce qui forme aussi le 'M'. On peut ainsi y voir toutes les lettres de 'KOKOMO'. La typographie, la police Monoton, présente un tracé strié qui évoque le dynamisme et le luxe, mais rappelle aussi le nautisme et la 'marinière' avec ses rayures bleu marine.",
 		"host": {
 			"name": "Franck Maher",
@@ -193,19 +182,22 @@
 		"id": "0979876d",
 		"title": "Parc en Fête",
 		"cover": "https://i.ibb.co/3Rx5JBW/parcenfete.png",
-		"thecover": "https://i.ibb.co/9ZP5HGT/kokomo-thecover-1240.jpg",
+		"thecover": "https://i.ibb.co/sy5dJKv/0-PARCen-Fete-Jour-OK-Page-1.webp",
 
 		"images":[
-			{"description": "page d'accueil",
+			{"description": "Illustration du Festival.",
 			"picture": "https://i.ibb.co/MgJSKyN/parcenfete.webp"
 			},
-			{"description": "Choix du menu",
+			{"description": "Annonce publicitaire sur les transports en commun",
 			"picture": "https://i.ibb.co/R62pyrG/habillage-BUS-Parc-En-Fete2014.webp"
 			},
-			{"description": "Test",
+			{"description": "T-shirt",
 			"picture": "https://i.ibb.co/ngsvbG8/parcenfete3.webp"
 			},
-			{"description": "Test",
+			{"description": "Preview Totems triptyque avec plan",
+			"picture": "https://i.ibb.co/sKbLdDn/Capture-d-e-cran-2014-05-16-a-16-44-41.webp"
+			},
+			{"description": "Totems triptyque",
 			"picture": "https://i.ibb.co/wr9x2pY/parcenfete.webp"
 			}	
 		],
@@ -248,19 +240,20 @@
 	
 	{
 		"id": "b4c67936",
-		"title": "Cheap - Studio 18ème",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
-		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
+		"title": "Sea Festival",
+		"cover": "https://i.ibb.co/8zFqLVz/sea-festival-small.jpg",
+		"thecover":"https://i.ibb.co/j3NjjYZ/seafestival-cover-1600.webp",
 		"images":[
-			{"description": "page d'accueil",
-			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp"
+			{"description": "Affiche du Festival",
+			"picture": "https://i.ibb.co/6XmGgTX/seafest-affiche.jpg"
 			},
-			{"description": "Conception des T-shirts",
-			"picture": "https://i.ibb.co/q5C1CsZ/kkm-tshirt.png"
+		
+			{"description": "Capture d'écran",
+			"picture": "https://i.ibb.co/mNvZbK8/seafes-preview.jpg"
 			},
-			{"description": "Test",
-			"picture": "https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp"
-			}		
+			{"description": "Panneau sucette",
+			"picture": "https://i.ibb.co/TYGNzRH/sea-festival-sucette.webp"
+			}	
 			],
 		"description": "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
 		"host": {
@@ -286,15 +279,15 @@
 			"Branding"
 		],
 		"color": [
-			"#47A603"
+			"#bc8200"
 		]
 	},
 	
 	{
 		"id": "cb2f9222",
-		"title": "Suite familiale",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-1.jpg",
-		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
+		"title": "C.L.A.S.S. ",
+		"cover": "https://i.ibb.co/zRHgjzq/CLASS-small.jpg",
+		"thecover":"https://i.ibb.co/6yDF09d/Charte-graphique-CLASS-conciergerie.jpg",
 		"images":[
 			{"description": "page d'accueil",
 			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp"
@@ -312,7 +305,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		"rating": "4",
-		"subtitle": "Ile de France - Paris 14e",
+		"subtitle": "Conciergerie de luxe",
 		"equipments": [
 			"Climatisation",
 			"Machine à laver",
@@ -321,15 +314,15 @@
 			"Parking"
 		],
 		"tags": [
-			"Montparnasse",
-			"Commerces",
-			"Famille"
+			"Branding",
+			"Logo",
+			"Motion"
 		],
 		"filter": [
 			"Branding"
 		],
 		"color": [
-			"#47A603"
+			"#c40d0e"
 		]
 	},
 	{
@@ -370,7 +363,7 @@
 			"Metro 2"
 		],
 		"filter": [
-			"Video"
+			"Motion"
 		],
 		"color": [
 			"#47A603"

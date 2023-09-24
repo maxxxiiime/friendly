@@ -1,4 +1,5 @@
 @import "../../pages/styles/variables.scss";
+@import "./grunge.scss";
 @font-face {
   font-family: 'Free';
   src: url('../../assets/Variable/Free-variable.ttf')  format('truetype');
@@ -140,7 +141,7 @@ ul {
 .images-container{
   width: 90%;
   max-width: 1240px;
-  margin:auto;
+  margin:55px auto 0 auto;
   // background-color: #dbdbdb;
 img{
   width: 100%;
@@ -150,7 +151,7 @@ img{
 }
 .project-image{
   p{
-    max-width: 33%;
+    max-width:1240px;
     font-family: "Montserrat";
     margin: 20px auto 2px 0;
     padding: 3px;
@@ -224,7 +225,7 @@ img{
         font-size: 18px;
       }
       &:hover{
-        font-variation-settings: "wght" 800, "wdth" 800;
+        font-variation-settings: "wght" 800, "wdth" 600;
       }
     }
     .text-next-projet{

@@ -53,6 +53,7 @@ export default function Projet() {
 
   return (
     <div>
+      <div className='grunge'></div>
       <Header />
       <Banner image={projet.thecover} text={projet.title} />
       <div className="all-description" style={projetColor}>

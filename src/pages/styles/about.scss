@@ -1,3 +1,5 @@
+@import "./grunge.scss";
+
 .main-content{
     width: 90%;
     max-width: 1240px;
@@ -6,6 +8,9 @@
         margin:20px auto 8px auto;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
+    }
+    .quote-about{
+      border-top: solid grey 1px;
     }
    
 }
@@ -69,7 +74,7 @@
     margin: 0px auto;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-top: solid grey 1px;
+ 
     
 img{
     width: 100%;
@@ -79,29 +84,55 @@ img{
     cursor: pointer;
     filter: saturate(0);
     transition: .3s;
-    filter: drop-shadow(1px 2px 3px rgb(255, 255, 255));
+    // filter: drop-shadow(1px 2px 3px rgb(255, 255, 255));
     
     &:hover{
         opacity: 1;
         filter: saturate(1);
-        filter: drop-shadow(1px 2px 12px rgb(255, 255, 255));
+        // filter: drop-shadow(1px 2px 12px rgb(255, 255, 255));
     }
 }
     .one-skill{
         margin: auto;
        width: 100%;
        max-width: 100px;
+       font-family: 'Montserrat';
+       font-size: 13px;
+       text-align: center;
        @media only screen and (max-width: 775px) {
-        width: 58px;
+        font-size: 11px;
+      }
+      p{
+        margin: 16px auto 2px auto;
       }
     }
-    P{
-        font-family: 'Montserrat';
-        font-size: 15px;
-        text-align: center;
-        margin: 12px auto 2px auto;
+ 
+
+    .text-skills-collapse{
+    font-family: 'Montserrat';;
+      text-align: left;
+      margin:11px auto auto 0px;
+      @media only screen and (max-width: 775px) {
+         margin: 15px 40% 0px 0px;
+     
+      }
+      h4{
+        color:#777;
+        font-size:19px ;
+        margin:12px auto;
         @media only screen and (max-width: 775px) {
-            font-size: 9px;
-          }
+          font-size: 14px;
+        }
+      }
+    }
+
+    ul {
+      font-size: 16px;
+      @media only screen and (max-width: 775px) {
+        font-size: 13px;
+      }
+      span.colored{
+        color:#F2B366;
+      }
     }
 }

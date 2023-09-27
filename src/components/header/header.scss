@@ -9,7 +9,7 @@
 }
 .nav-header {
   position:fixed;
-  max-height: 67px;
+  max-height: 58px;
   width: 100%;
   top:0;
   background: linear-gradient(to right, #242426, #000);
@@ -21,25 +21,38 @@
   width: 90%;
   max-width: 1240px;
   justify-content: space-between;
-  align-items: center;
-  margin: 10px auto;
+  align-items:flex-start;
+  margin: 2px auto;
 
 }
 
-.kasa-logo {
-  width: 210px;
+.eye-logo {
+  max-width: 150px;
+  width: 100%;
   cursor: pointer;
-}
-
-@media only screen and (max-width: 775px) {
-  .kasa-logo {
-    width: 145px;
+  img {
+    width: 100%;
   }
 }
+
 
 .navigation-menu ul {
   display: flex;
   list-style: none;
+  flex-direction: row;
+  &.hidden{
+    display:none;
+  }
+  &.show{
+    display:flex;
+    
+  }
+  @media only screen and (max-width: 775px) {
+    flex-direction: column;
+    text-align: right;
+    padding-right: 100px;
+    display:none;
+  }
 }
 
 .navigation-menu a {
@@ -47,35 +60,39 @@
   position: relative;
   color: #F2F2F2;
   text-decoration: none;
-  font-size: 34px;
+  font-size: 26px;
   margin: 30px;
-  letter-spacing: 1px;
   font-weight: 900;
   text-decoration: none;
   transition: all 0.6s ease;
   font-variation-settings: 'wght' 800, 'SPAC' 100; 
   cursor: pointer;
+  
 }
 .navigation-menu a:hover  {
   transition: .7s;
-  font-size: 36px;
+  
+  font-size: 28px;
   font-variation-settings: 'wght' 400, 'SPAC' 118; 
   cursor: pointer;
+  @media only screen and (max-width:940px){
+    font-size: 21px;
+}
 
 }
 .navigation-menu a.active  {
   font-variation-settings: 'wght' 400, 'SPAC' 118;
-  font-size: 36px;
-    @media only screen and (max-width:775px){
-      font-size: 12px;
+  font-size: 28px;
+    @media only screen and (max-width:940px){
+      font-size: 21px;
   }
 }
 
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 940px) {
   .navigation-menu a {
-    font-size: 12px;
-    margin: 6px;
+    font-size: 21px;
+  margin:20px;
   }
 }
 
@@ -83,7 +100,7 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: -2px;
+  bottom: -3px;
   width: 0;
   height: 2px;
   background-color: #F2F2F2;
@@ -96,4 +113,60 @@
 
 .navigation-menu a.active::before {
   width: 100%;
+}
+
+button.btn-burger{
+  display: none;
+  width: 48px;
+  height: 48px;
+  position: fixed;
+  top:10px;
+  right:10px;
+  @media only screen and (max-width:775px){
+  display: block;
+}
+  .icon-hamburger{
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 775px) {
+  .eye-logo {
+    width: 100px;
+  }
+
+  .navigation-menu ul {
+    display: none; /* Cachez le menu en dessous de 775px */
+  }
+
+  .btn-burger {
+    display: block;
+  }
+
+  .btn-burger .icon-hamburger {
+    width: 100%;
+  }
+  .navigation-menu a {
+    margin:18px;
+  }
+  .navigation-menu .show ul {
+    display: flex; /* Affichez le menu lorsque la classe "show" est active */
+    flex-direction: column;
+    margin: 20px 70px auto auto;
+  }
+
+
+  .navigation-menu ul.show {
+    background-color: rgba(38,7,0, 0.8);
+    border-radius: 0 0 15px 10px;
+   
+    padding: 50px 20px;
+  }
+}
+button.btn-burger.show{
+  background-color:#000;
+  color:none;
+  border: 0;
+  padding: 0;
 }

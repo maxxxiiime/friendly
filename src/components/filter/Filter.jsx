@@ -11,7 +11,7 @@ export default function Filter({ categories, selectedCategory, onSelectCategory 
         className={selectedCategory === '' ? 'active' : ''}
         onClick={() => onSelectCategory('')}
       >
-        Tout
+       {'{ Tout }'}
       </button>
       {categories.map((category) => (
         <button

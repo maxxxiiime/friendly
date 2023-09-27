@@ -40,7 +40,7 @@
 			"SASS"
 		],
 		"filter": [
-			"Web"
+			"{ Web }"
 		],
 		"color": [
 		"#9356dc"
@@ -87,7 +87,7 @@
 			"SEO"
 		],
 		"filter": [
-			"Web"
+			"{ Web }"
 		],
 		"color": [
 			"#c55e1a"
@@ -128,7 +128,7 @@
 			"Logo"
 		],
 		"filter": [
-			"Branding"
+			"{ Branding }"
 		],
 		"color": [
 			"#0074ce"
@@ -172,7 +172,7 @@
 			"Flyer"
 		],
 		"filter": [
-			"Branding"
+			"{ Branding }"
 		],
 		"color": [
 			"#0074ce"
@@ -231,7 +231,7 @@
 			"Flyer"
 		],
 		"filter": [
-			"Branding"		
+			"{ Branding }"		
 		],
 		"color": [
 			"#47A603"
@@ -276,7 +276,7 @@
 			"18ème"
 		],
 		"filter": [
-			"Branding"
+			"{ Branding }"
 		],
 		"color": [
 			"#bc8200"
@@ -319,7 +319,7 @@
 			"Motion"
 		],
 		"filter": [
-			"Branding"
+			"{ Branding }"
 		],
 		"color": [
 			"#c40d0e"
@@ -363,7 +363,7 @@
 			"Metro 2"
 		],
 		"filter": [
-			"Motion"
+			"{ Motion }"
 		],
 		"color": [
 			"#47A603"
@@ -406,7 +406,7 @@
 			"Rivoli"
 		],
 		"filter": [
-			"Branding"
+			"{ Branding }"
 		],
 		"color": [
 			"#47A603"

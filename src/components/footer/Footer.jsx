@@ -11,6 +11,7 @@ export default function Footer() {
         <p className='footer_text'>© 2023 Maxime Jouffrey. All rights reserved</p>
     </div>
     </div>
+
   </footer>
   )
 }

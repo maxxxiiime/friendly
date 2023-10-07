@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 import TextAnim from '../components/TextAnim/TextAnim'
-import Header from '../components/header/Header';
+
 import Footer from '../components/footer/Footer';
 import Profilimg from '../assets/moimeme.webp' 
 
@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className='container'>
     <div className='grunge'></div>
-        <Header  />
+        
 
         <div className='friendly-designer'>
         <NavLink to={"/about"}><h1>MAXIME JOUFFREY</h1></NavLink>

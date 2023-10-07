@@ -15,7 +15,7 @@
     position: relative;
     border-bottom: dotted 2px;
     margin: 33px auto 15px auto;
-    background-color:#dbdbdb;
+    // background-color:#dbdbdb;
     z-index: 2;
     cursor: pointer;
 
@@ -52,12 +52,11 @@
     cursor: pointer;
   }
   &_text {
-   
     overflow: hidden;
     font-family: "Montserrat", sans-serif;
     height: 0px;
     max-width: 1000px;
-    margin: -27px auto 0 auto;
+    margin: -17px auto 0 auto;
     opacity: 0;
     transition: all 0.5s ease-in-out;
     transform: translateY(-25px);

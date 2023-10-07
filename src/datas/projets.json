@@ -21,7 +21,7 @@
 			}		
 			],
 
-		"description": " Pour permettre la commande de repas en ligne, en donnant la possibilité aux utilisateurs, de composer leur propre menu, j'ai réalisé le site de l'entreprise Ohmyfood, en adoptant une approche 'mobile friendly'. J'ai développé la page d'accueil, ainsi que quatre pages de restaurants avec leurs menus. En y ajoutant plusieurs animations en SASS, ainsi qu'un élément de chargement (loader).",
+		"description": " Pour permettre la commande de repas en ligne, en donnant la possibilité aux utilisateurs, de composer leur propre menu, j'ai réalisé le site de l'entreprise Ohmyfood. En adoptant une approche 'mobile friendly', j'ai développé la page d'accueil, ainsi que quatre pages de restaurants avec leurs menus. En y ajoutant plusieurs animations en SASS, ainsi qu'un élément de chargement (loader).",
 		"host": {
 			"name": "Nathalie Jean",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
@@ -43,7 +43,7 @@
 			"{ Web }"
 		],
 		"color": [
-		"#9356dc"
+		"#c36cda"
 		],
 		"link": [
 			"https://maxxxiiime.github.io/ohmyfood/"
@@ -90,7 +90,7 @@
 			"{ Web }"
 		],
 		"color": [
-			"#c55e1a"
+			"#d45f1b"
 			],
 		"link": [
 				"https://maxxxiiime.github.io/ninacarducci/"
@@ -100,7 +100,7 @@
 		"id": "46d188c5",
 		"title": "KOKOMO",
 		"cover": "https://i.ibb.co/KqdTgVs/kokomo-logo.png",
-		"thecover": "https://i.ibb.co/9ZP5HGT/kokomo-thecover-1240.jpg",
+		"thecover": "https://i.ibb.co/gwM5nX8/KKMCOVER.jpg",
 		"images":[
 			{"description": "Exemples cartes de visites et flyer événementiel",
 			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp"
@@ -131,7 +131,7 @@
 			"{ Branding }"
 		],
 		"color": [
-			"#0074ce"
+			"#0a8dd8"
 		]
 	},
 	{
@@ -150,13 +150,13 @@
 			"picture": "https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp"
 			}		
 			],
-		"description": "Venez découvrir Paris en séjournant dans ce nid douillet au coeur du 11ème. La vue sur le parc résidentiel saura vous reposer de vos longues journées de tourisme dans la capitale française. Et pour les plus fêtards d'entre vous, la rue Jean Pierre Timbaud vous permettra de découvrir la night-life parisienne à seulement 5 minutes de l'appartement.",
+		"description": "Operationnal Support & Risk management.",
 		"host": {
 			"name": "Della Case",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
 		},
 		"rating": "3",
-		"subtitle": "Ile de France - Paris 11e",
+		"subtitle": "Operationnal Support & Risk management ",
 		"equipments": [
 			"Micro-Ondes",
 			"Wi-fi",
@@ -290,7 +290,7 @@
 		"thecover":"https://i.ibb.co/6yDF09d/Charte-graphique-CLASS-conciergerie.jpg",
 		"images":[
 			{"description": "page d'accueil",
-			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp"
+			"picture": "https://i.ibb.co/2PxJs7J/class-conciergerie-anim.gif"
 			},
 			{"description": "Conception des T-shirts",
 			"picture": "https://i.ibb.co/q5C1CsZ/kkm-tshirt.png"

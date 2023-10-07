@@ -5,16 +5,21 @@ import Error from "./pages/Error";
 import Projet from "./pages/Projet";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import Header from "./components/header/Header";
+import ToggleThemeButton from "./components/ToggleThemeButton/ToggleThemeButton";
 
 import { Routes, Route } from "react-router-dom";
 
 import { BrowserRouter } from "react-router-dom";
 
 
+
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <Header />
+      <ToggleThemeButton />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

@@ -26,7 +26,7 @@
 			"name": "Nathalie Jean",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
-		"rating": "5",
+		"date": "2022",
 		"subtitle": "Commande de repas en ligne",
 		"equipments": [
 			"Équipements de base",
@@ -58,10 +58,10 @@
 			{"description": "page d'accueil",
 			"picture": "https://maxxxiiime.github.io/ninacarducci/0-ninacarducci-1240px.webp"
 			},
-			{"description": "Optimisation gallerie d'images",
+			{"description": "Optimisation de la gallerie d'images",
 			"picture": "https://maxxxiiime.github.io/ninacarducci/1-ninacarducci-1240px.webp"
 			},
-			{"description": "",
+			{"description": "Pied de page",
 			"picture": "https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp"
 			}		
 			],
@@ -71,7 +71,7 @@
 			"name": "Della Case",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
 		},
-		"rating": "4",
+		"date": "2023",
 		"subtitle": "Photographe Professionelle",
 		"equipments": [
 			"Parking",
@@ -100,7 +100,7 @@
 		"id": "46d188c5",
 		"title": "KOKOMO",
 		"cover": "https://i.ibb.co/0JycK6J/kkm-logo-ok.jpg",
-		"thecover": "https://i.ibb.co/gwM5nX8/KKMCOVER.jpg",
+		"thecover": "https://i.ibb.co/XyG1TLL/KKMCOVER-page.webp",
 		"images":[
 			{"description": "Exemples cartes de visites et flyer événementiel",
 			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp"
@@ -114,7 +114,7 @@
 			"name": "Franck Maher",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
-		"rating": "3",
+		"date": "2019",
 		"subtitle": "Beach Bar - Restaurant",
 		"equipments": [
 			"Wi-fi",
@@ -155,7 +155,7 @@
 			"name": "Della Case",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
 		},
-		"rating": "3",
+		"date": "2018",
 		"subtitle": "Operationnal Support & Risk management ",
 		"equipments": [
 			"Micro-Ondes",
@@ -213,7 +213,7 @@
 			"name": "Franck Maher",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
-		"rating": "5",
+		"date": "2015",
 		"subtitle": "Festival d'été",
 		"equipments": [
 			"Frigo Américain",
@@ -260,8 +260,8 @@
 			"name": "Hugo Perrier",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
 		},
-		"rating": "3",
-		"subtitle": "Ile de France - Paris 18e",
+		"date": "2019",
+		"subtitle": "Festival de la Mer",
 		"equipments": [
 			"Salle de bains",
 			"Frigo",
@@ -271,9 +271,9 @@
 			"Parking"
 		],
 		"tags": [
-			"Transports",
-			"Cheap",
-			"18ème"
+			"Branding",
+			"Design",
+			"Affiche"
 		],
 		"filter": [
 			"{ Branding }"
@@ -289,7 +289,7 @@
 		"cover": "https://i.ibb.co/zRHgjzq/CLASS-small.jpg",
 		"thecover":"https://i.ibb.co/6yDF09d/Charte-graphique-CLASS-conciergerie.jpg",
 		"images":[
-			{"description": "page d'accueil",
+			{"description": "Déclinaisons du logo",
 			"picture": "https://i.ibb.co/2PxJs7J/class-conciergerie-anim.gif"
 			},
 			{"description": "Conception des T-shirts",
@@ -304,7 +304,7 @@
 			"name": "Adrien Chiran",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
-		"rating": "4",
+		"date": "2019",
 		"subtitle": "Conciergerie de luxe",
 		"equipments": [
 			"Climatisation",
@@ -319,7 +319,8 @@
 			"Motion"
 		],
 		"filter": [
-			"{ Branding }"
+			"{ Branding }",
+			"{ Motion }"
 		],
 		"color": [
 			"#c40d0e"
@@ -346,7 +347,7 @@
 			"name": "Adrien Chiran",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
-		"rating": "3",
+		"date": "2019",
 		"subtitle": "Ile de France - Paris 11e",
 		"equipments": [
 			"Vue Parc",

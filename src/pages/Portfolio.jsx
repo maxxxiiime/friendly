@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 import CardsDatas from '../datas/projets.json';
 import Card from '../components/cards/Cards';
@@ -20,7 +19,7 @@ export default function Portfolio() {
   return (
     <div>
       <div className='grunge'></div>
-      <Header />
+
    
         <Filter
           categories={categories}

@@ -63,20 +63,19 @@
   position: relative;
   color: #F2F2F2;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 27px;
   margin: 30px;
   font-weight: 900;
   text-decoration: none;
-  transition: all 0.6s ease;
-  font-variation-settings: 'wght' 800, 'SPAC' 100; 
+  transition: all 0.4s ease;
+  font-variation-settings: 'wght' 400, 'SPAC' 118; 
   cursor: pointer;
   
 }
 .navigation-menu a:hover  {
   transition: .7s;
-  
-  font-size: 28px;
-  font-variation-settings: 'wght' 400, 'SPAC' 118; 
+  font-variation-settings: 'wght' 800, 'SPAC' 100;
+  font-size: 26px;
   cursor: pointer;
   @media only screen and (max-width:940px){
     font-size: 21px;
@@ -84,8 +83,8 @@
 
 }
 .navigation-menu a.active  {
-  font-variation-settings: 'wght' 400, 'SPAC' 118;
-  font-size: 28px;
+  font-variation-settings: 'wght' 800, 'SPAC' 100;
+  font-size: 26px;
     @media only screen and (max-width:940px){
       font-size: 24px;
   }
@@ -103,11 +102,11 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: -3px;
+  bottom: -2px;
   width: 0;
   height: 2px;
   background-color: #F2F2F2;
-  transition: width 0.5s ease-out;
+  transition: width 0.4s ease-out;
 }
 
 .navigation-menu a:hover::before {

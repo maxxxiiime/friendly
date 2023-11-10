@@ -50,7 +50,6 @@ useEffect(() => {
       <button onClick={() => setShowMenu(!showMenu)}
       className={`btn-burger ${window.innerWidth <= 775 ? "show" : ""}`}
       >
-
       <img 
       className="icon-hamburger"
       src={showMenu ? close : hamburger} alt={showMenu ? "Cacher le menu" : "Montrer le menu"}/>

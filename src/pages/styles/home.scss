@@ -168,10 +168,14 @@ font-size: 36px;
         circle at 93.3% 75%,
         rgba(242,182,4, 0.5),
         rgba(242,89,75, 0.6) 70.71%
-      )#F2B366;
+      ), url('../../assets/test-tramage2.png');
+
+    background-color: #F2B366;
+    background-repeat: repeat;
+
     left: 5vmin;
     top: 0vmin;
-    animation: metamorph 16s linear infinite alternate,spin 20s linear infinite;
+    animation: metamorph 13s linear infinite alternate,spin 33s linear infinite;
     z-index: 1;
    will-change: border-radius,transform;
     transform-origin: 50% 55%;

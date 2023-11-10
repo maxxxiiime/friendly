@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import Header from "../components/header/Header";
+// import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import CardsDatas from "../datas/projets.json";
 import Collapse from "../components/Collapse/Collapse";
@@ -54,8 +54,8 @@ export default function Projet() {
   return (
     <div>
       <div className='grunge'></div>
-      <Header />
-      <Banner image={projet.thecover} text={projet.title} />
+      {/* <Header /> */}
+      <Banner image={projet.thecover} />
       <div className="all-description" style={projetColor}>
         <div className="_text-left">
           <h2 style={projetColor}>{projet.title}</h2>
@@ -86,7 +86,7 @@ export default function Projet() {
         </div>
         
       </div>
-      <div className="images-container">
+      <div className="images-container" >
         {projet.images.map((image, index) => (
            <div key={index} className="project-image">
             <p style={projetColor}>{image.description}</p>

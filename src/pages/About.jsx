@@ -20,8 +20,6 @@ export default function About() {
   ));
   return (
     <div className="main">
-      <div className='grunge'></div>
-  
       <div className="main-content">
     
       <h2>Designer graphique, 
@@ -47,21 +45,23 @@ export default function About() {
           <div className="text-skills-collapse"><h4>Communication visuelle interactive</h4></div>
              <ul><li><span className="colored">●</span> Conception d'univers graphique adaptés</li>
             <li><span className="colored">●</span> Ergonomie et design</li>
-            <li><span className="colored">●</span> Graphisme web, édition et publicité.</li></ul>
+            <li><span className="colored">●</span> Graphisme web, édition et publicité</li>
+            <li><span className="colored">●</span> Référencement SEO</li>
+            <li><span className="colored">●</span> Méthode agile</li></ul>
           </div>}
           />
           <Collapse
-            title=" Respect"
-            content="✉️ La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de
-                      perturbation du voisinage entraînera une exclusion de notre plateforme."
+            title=" Diplôme"
+            content={
+             <>
+                ✔️ Je suis diplômé d'un BAC STI Électronique,<br></br>
+                d'Infographie certifié RNCP Niveau 5, <br></br>d'un BTS Communication Visuelle option graphisme, édition et publicité. <br></br>
+                J'ai aussi suivi une formation de Webdesigner Multimedia et une formation de Développeur web RNCP Niveau 5.
+             </>
+            }
           />
-          <Collapse
-            title=" Service"
-            content="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de
-                      perturbation du voisinage entraînera une exclusion de notre plateforme."
-          />
-        
-        
+
+              
         </div>
       </div>
       <Footer />

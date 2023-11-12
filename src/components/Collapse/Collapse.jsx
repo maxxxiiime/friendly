@@ -11,7 +11,7 @@ export default function Collapse({ title, content }) {
   return (
     <div className="collapse-bar">
       <div className="collapse-bar_title" onClick={hideorShow}>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         <div className="to-toggle-collapse">
    
           <img

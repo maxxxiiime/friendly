@@ -5,63 +5,63 @@
     font-stretch: 100 800; /* Gamme de largeurs disponibles */
 }
 
-.grunge {
-    position: fixed;
-    z-index: 99;
-    top: -300%;
-    left: -150%;
-    height: 600%;
-    width: 600%;
-    -webkit-animation: grain 7s steps(10) infinite;
-    animation: grain 7s steps(10) infinite;
-    background-image: url(../../assets/grunge.png);
-    background-size: 200px;
-    background-repeat: repeat;
-    opacity: .3;
-    pointer-events: none;
-    overflow: hidden;
-  }
-  @keyframes grain {
-    0%,to {
-        transform: translate(0)
-    }
+// .grunge {
+//     position: fixed;
+//     z-index: 99;
+//     top: -300%;
+//     left: -150%;
+//     height: 600%;
+//     width: 600%;
+//     -webkit-animation: grain 7s steps(10) infinite;
+//     animation: grain 7s steps(10) infinite;
+//     background-image: url(../../assets/grunge.png);
+//     background-size: 200px;
+//     background-repeat: repeat;
+//     opacity: .3;
+//     pointer-events: none;
+//     overflow: hidden;
+//   }
+//   @keyframes grain {
+//     0%,to {
+//         transform: translate(0)
+//     }
   
-    10% {
-        transform: translate(-5%,-10%)
-    }
+//     10% {
+//         transform: translate(-5%,-10%)
+//     }
   
-    20% {
-        transform: translate(-15%,5%)
-    }
+//     20% {
+//         transform: translate(-15%,5%)
+//     }
   
-    30% {
-        transform: translate(7%,-25%)
-    }
+//     30% {
+//         transform: translate(7%,-25%)
+//     }
   
-    40% {
-        transform: translate(-5%,25%)
-    }
+//     40% {
+//         transform: translate(-5%,25%)
+//     }
   
-    50% {
-        transform: translate(-15%,10%)
-    }
+//     50% {
+//         transform: translate(-15%,10%)
+//     }
   
-    60% {
-        transform: translate(15%)
-    }
+//     60% {
+//         transform: translate(15%)
+//     }
   
-    70% {
-        transform: translateY(15%)
-    }
+//     70% {
+//         transform: translateY(15%)
+//     }
   
-    80% {
-        transform: translate(3%,35%)
-    }
+//     80% {
+//         transform: translate(3%,35%)
+//     }
   
-    90% {
-        transform: translate(-10%,10%)
-    }
-  }
+//     90% {
+//         transform: translate(-10%,10%)
+//     }
+//   }
   
   @keyframes bubblin {
     0% {
@@ -203,6 +203,8 @@ font-size: 36px;
         height: 344px;
     }
 }
+
+
   .ovale-anim {
     width: 100%;
     max-width: 450px;

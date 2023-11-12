@@ -140,15 +140,12 @@
 		"cover": "https://i.ibb.co/R2TwTNQ/op-logo-small-ok.jpg",
 		"thecover": "https://i.ibb.co/9ZP5HGT/kokomo-thecover-1240.jpg",
 		"images":[
-			{"description": "page d'accueil",
-			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp"
+			{"description": "Charte graphique",
+			"picture": "https://i.ibb.co/2sW15BV/CHARTE-GRAPHIQUE-OPSOK.png"
 			},
-			{"description": "Conception des T-shirts",
-			"picture": "https://i.ibb.co/q5C1CsZ/kkm-tshirt.png"
-			},
-			{"description": "Test",
-			"picture": "https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp"
-			}		
+			{"description": "Carte de visite",
+			"picture": "https://i.ibb.co/3SvGzyz/Cartedevisite-OPS-SIMUok.jpg"
+			}	
 			],
 		"description": "Operationnal Support & Risk management.",
 		"host": {
@@ -255,7 +252,7 @@
 			"picture": "https://i.ibb.co/TYGNzRH/sea-festival-sucette.webp"
 			}	
 			],
-		"description": "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
+		"description": "Sea Festival est un un événement idéal pour découvrir les activités nautiques à Saint-Martin. Festival qui a lieu chaque années, j'ai conçu l'identitée visuelle autour de la forme de l'île de Saint-Martin et des activités nautiques. Au programme du Sea Festival : Day charter, Voile légère, Kayak, Paddle, Jet ski, Plongée, Ski nautique, Donuts, Parasail, Kite-Surf, Surf, Windsurf, Paddle-yoga, Volley Beach, Beach tennis...",
 		"host": {
 			"name": "Hugo Perrier",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"

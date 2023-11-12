@@ -14,7 +14,19 @@ export default function Projet() {
   const { id } = useParams(); // useParams pour extraire l'ID du projet depuis l'URL
   const [projet, setProjet] = useState(null);
   const [loading, setLoading] = useState(true); // Ajoute un état de chargement
+  const [animatedImages, setAnimatedImages] = useState([]);
+  const [showBanner, setShowBanner] = useState(false);
 
+  useEffect(() => {
+    // Réinitialiser les images animées lorsque l'ID du projet change
+    setAnimatedImages([]);
+    setShowBanner(false); // Réinitialise showBanner
+  }, [id]);
+  const handleImageLoad = (index) => {
+    // Ajouter l'index de l'image à la liste des images animées
+    setAnimatedImages((prev) => [...prev, index]);
+  };
+  
   useEffect(() => {
     // Recherche le projet correspondant à l'ID dans CardsDatas
     const projetFound = CardsDatas.find((card) => card.id === id);
@@ -22,6 +34,7 @@ export default function Projet() {
     if (projetFound) {
       setProjet(projetFound);
       setLoading(false);
+      setShowBanner(true);
       window.scrollTo(0, 0);
     } else {
       // Si aucun projet n'est trouvé, loader puis la page d'erreur
@@ -55,7 +68,11 @@ export default function Projet() {
     <div>
       <div className='grunge'></div>
       {/* <Header /> */}
-      <Banner image={projet.thecover} />
+      <Banner 
+        image={projet.thecover} 
+        className={showBanner ? 'banner-fade-in' : ''} 
+        />
+
       <div className="all-description" style={projetColor}>
         <div className="_text-left">
           <h2 style={projetColor}>{projet.title}</h2>
@@ -75,7 +92,6 @@ export default function Projet() {
           </div>
         </div>
         
-
         <div className="collapse-description"  style={projetColor}>
           <Collapse
             title=" Description"
@@ -88,15 +104,22 @@ export default function Projet() {
       </div>
       <div className="images-container" >
         {projet.images.map((image, index) => (
-           <div key={index} className="project-image">
+           <div key={index} 
+           className={`project-image ${animatedImages.includes(index) ? 'image-fade-in' : ''}`}
+           >
             <p style={projetColor}>{image.description}</p>
-           <img src={image.picture} alt={image.description} />
+           <img 
+            src={image.picture} 
+            alt={image.description} 
+            onLoad={() => handleImageLoad(index)}
+           />
            
          </div>
         ))}
       </div>
           <div className="next-projet" style={nextProjectColor}>
-          <Link to={`/projet/${getNextProject().id}`}>
+          <Link to={`/projet/${getNextProject().id}`} 
+          onClick={() => setLoading(true)}>
             <button>NEXT</button>
             <div className="text-next-projet">
             <h3 style={nextProjectColor}>{nextProject.title}</h3>

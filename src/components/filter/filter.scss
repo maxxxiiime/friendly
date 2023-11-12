@@ -4,7 +4,15 @@
     font-weight: 100 800; 
     font-stretch: 100 800; 
 }
-
+body.dark .filter button {
+  background-color: #BF8563; 
+  &:hover{
+    background-color: #730202; 
+  }
+  &.active{
+    background-color: #730202; 
+  }
+}
 .filter{
     width: 90%;
     max-width: 1240px;
@@ -15,6 +23,7 @@
     @media only screen and (max-width: 775px) {
       padding-bottom: 0;
     }  
+
 
 
 button {
@@ -37,8 +46,15 @@ button {
       min-width: 15%;
       letter-spacing: 0px;
       font-size: 12px;
-      margin: 5px 6px;
+      margin: 5px 2px;
       padding: 5px 10px;
+    }
+    @media only screen and (max-width: 385px) {
+      min-width: 15%;
+      letter-spacing: 0px;
+      font-size: 11px;
+      margin: 5px 1px;
+      padding: 3px 8px;
     }
   }
   

@@ -7,7 +7,6 @@ export default function Card({ id,cover, title }) {
     <Link to={`/projet/${id}`}>
       <div className="project-card">
         <img src={cover} alt={title} className='project-card_img' />
-        
         <h3>{title}</h3>
       </div>
     </Link>

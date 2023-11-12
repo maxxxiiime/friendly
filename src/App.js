@@ -9,14 +9,12 @@ import Header from "./components/header/Header";
 import ToggleThemeButton from "./components/ToggleThemeButton/ToggleThemeButton";
 
 import { Routes, Route } from "react-router-dom";
-
 import { BrowserRouter } from "react-router-dom";
-
-
 
 function App() {
   return (
     <div className="App">
+      <div className='grunge'></div>
       <BrowserRouter>
       <Header />
       <ToggleThemeButton />
@@ -32,5 +30,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

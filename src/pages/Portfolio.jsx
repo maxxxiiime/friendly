@@ -3,10 +3,7 @@ import Footer from '../components/footer/Footer';
 import CardsDatas from '../datas/projets.json';
 import Card from '../components/cards/Cards';
 import Filter from '../components/filter/Filter'; 
-
-
 import './styles/portfolio.scss';
-
 
 export default function Portfolio() {
   const [selectedCategory, setSelectedCategory] = useState('');
@@ -18,9 +15,7 @@ export default function Portfolio() {
 
   return (
     <div>
-      <div className='grunge'></div>
 
-   
         <Filter
           categories={categories}
           selectedCategory={selectedCategory}

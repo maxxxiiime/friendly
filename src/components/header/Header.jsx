@@ -6,7 +6,7 @@ import close from "../../assets/navbar/close.svg"
 import "./header.scss";
 import { NavLink } from "react-router-dom";
 
-export default function Header() {
+const Header = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -23,12 +23,10 @@ useEffect(() => {
     window.removeEventListener("resize", handleResize);
   };
 }, [handleResize]);
-
   return (
     <nav className="nav-header">
       <div className="nav-header-content">
       <NavLink to={"/"}><img src={logo} alt="eye logo" className="eye-logo" /></NavLink>
-
         <div className="navigation-menu">
           <nav>
             <ul className={showMenu ? "show " : "hidden"}>
@@ -44,9 +42,7 @@ useEffect(() => {
             </ul>
           </nav>
         </div>
-
       </div>
-
       <button onClick={() => setShowMenu(!showMenu)}
       className={`btn-burger ${window.innerWidth <= 775 ? "show" : ""}`}
       >
@@ -56,6 +52,7 @@ useEffect(() => {
       </button>
     </nav>
   );
-}
+};
+export default React.memo(Header);
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 import TextAnim from '../components/TextAnim/TextAnim'
-import Footer from '../components/footer/Footer';
+
 import Profilimg from '../assets/moimeme.webp' 
 import './styles/home.scss'
 
@@ -20,7 +20,7 @@ export default function Home() {
             <div className='ovale-anim3'></div>
           </NavLink>
           </div>
-        <Footer />
+
     </div>
   );
 }

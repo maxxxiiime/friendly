@@ -17,6 +17,10 @@ const handleResize = useCallback(() => {
   setShowMenu(window.innerWidth <= 775 ? false : true);
 }, []);
 
+// const handleMenuItemClick = () => { // ferme le menu au clic sur un onglet
+//   setShowMenu(false);
+// };
+
 useEffect(() => {
   window.addEventListener("resize", handleResize);
   return () => {

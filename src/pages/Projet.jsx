@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-// import Header from "../components/header/Header";
+
 import Footer from "../components/footer/Footer";
 import CardsDatas from "../datas/projets.json";
 import Collapse from "../components/Collapse/Collapse";
@@ -9,6 +9,7 @@ import Error from "./Error";
 import ProjectLink from "../components/link/ProjectLink";
 import Loader from "../components/loader/Loader"
 import "./styles/projet.scss";
+// import Header from "../components/header/Header";
 
 export default function Projet() {
   const { id } = useParams(); // useParams pour extraire l'ID du projet depuis l'URL
@@ -66,8 +67,8 @@ export default function Projet() {
 
   return (
     <div>
-      <div className='grunge'></div>
       {/* <Header /> */}
+      <div className='grunge'></div>
       <Banner 
         image={projet.thecover} 
         className={showBanner ? 'banner-fade-in' : ''} 
@@ -113,13 +114,13 @@ export default function Projet() {
             alt={image.description} 
             onLoad={() => handleImageLoad(index)}
            />
-           
          </div>
         ))}
       </div>
           <div className="next-projet" style={nextProjectColor}>
           <Link to={`/projet/${getNextProject().id}`} 
-          onClick={() => setLoading(true)}>
+          onClick={() => setLoading(true)}// a voir
+          >
             <button>NEXT</button>
             <div className="text-next-projet">
             <h3 style={nextProjectColor}>{nextProject.title}</h3>

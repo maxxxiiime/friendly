@@ -6,6 +6,7 @@
   // font-stretch: 100 800; /* Gamme de largeurs disponibles */
   font-weight: 100 900; /* Gamme de graisses disponibles movement */
   font-stretch: 100 120; /* Gamme de largeurs disponibles */
+  font-display: swap;
 }
 .nav-header {
   position:fixed;
@@ -69,8 +70,8 @@
   text-decoration: none;
   transition: all 0.4s ease;
   font-variation-settings: 'wght' 400, 'SPAC' 118; 
+  font-display: swap;
   cursor: pointer;
-  
 }
 .navigation-menu a:hover  {
   transition: .7s;

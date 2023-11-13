@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Header from "../header/Header";
+import "./loader.scss"
 function Loader() {
 
   useEffect(() => {
@@ -8,14 +8,10 @@ function Loader() {
       console.log("Loader unmounted");
     };
   }, []);
-
   return (
-    
     <div className="loader">
-      <Header />
-      <p>Loading...</p>
+     
     </div>
   );
 }
-
 export default Loader;

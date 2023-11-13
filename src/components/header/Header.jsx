@@ -17,9 +17,11 @@ const handleResize = useCallback(() => {
   setShowMenu(window.innerWidth <= 775 ? false : true);
 }, []);
 
-// const handleMenuItemClick = () => { // ferme le menu au clic sur un onglet
-//   setShowMenu(false);
-// };
+const handleMenuItemClick = () => { // ferme le menu au clic sur un onglet
+  if (window.innerWidth <= 775) {
+    setShowMenu(false);
+  }
+};
 
 useEffect(() => {
   window.addEventListener("resize", handleResize);
@@ -34,13 +36,13 @@ useEffect(() => {
         <div className="navigation-menu">
           <nav>
             <ul className={showMenu ? "show " : "hidden"}>
-              <NavLink to={"/portfolio"}>
+              <NavLink to={"/portfolio"} onClick={handleMenuItemClick}>
                 <li>{'{ Portfolio }'}</li>
               </NavLink>
-              <NavLink to={"/about"}>
+              <NavLink to={"/about"} onClick={handleMenuItemClick}>
                 <li>{'{ À Propos }'}</li>
               </NavLink>
-              <NavLink to={"/contact"}>
+              <NavLink to={"/contact"} onClick={handleMenuItemClick}>
                 <li>{'{ Contact }'}</li>
               </NavLink>
             </ul>

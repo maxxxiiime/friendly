@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-
 import Footer from "../components/footer/Footer";
 import CardsDatas from "../datas/projets.json";
 import Collapse from "../components/Collapse/Collapse";
@@ -55,7 +54,6 @@ export default function Projet() {
     const nextIndex = (currentIndex + 1) % CardsDatas.length;
     return CardsDatas[nextIndex];
   };
-
   const nextProject = getNextProject();
 
   const projetColor = {

@@ -1,14 +1,11 @@
 import React from "react";
 
-import Footer from "../components/footer/Footer";
 import { SkillsData } from "../datas/SkillsData";
 import Collapse from "../components/Collapse/Collapse";
 import "./styles/about.scss";
 import slide1 from "../assets/slide1.jpg"
 
-
 export default function About() {
-
    //toutes les compétences en une seule variablee
    const allSkillsContent = SkillsData[0].skills.map((skill) => (
     <div className="one-skill" key={skill.id}>
@@ -21,14 +18,11 @@ export default function About() {
   return (
     <div className="main">
       <div className="main-content">
-    
       <h2>Designer graphique, 
       UX/UI <br></br>& Développeur web front-end.
 </h2>
-
 <div className="quote-about">
   <p>J'interviens sur la réalisation de projets de communication print et multimédia.</p>
-
   <div className="cv">
       <button>
         <a href={slide1} target="_blank" rel="noopener noreferrer">
@@ -36,8 +30,7 @@ export default function About() {
       </a>
         </button>
         </div>
-</div>
-   
+ </div>
         <div className="collapse_content_about">
         <Collapse
             title=" Compétences"
@@ -60,11 +53,8 @@ export default function About() {
              </>
             }
           />
-
-              
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

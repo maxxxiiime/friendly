@@ -6,18 +6,21 @@
 		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
 		"images":[
 			{"description": "Page d'accueil",
-			"picture": "https://maxxxiiime.github.io/ohmyfood/2-ohmyfood-1240px.webp"
+			"picture": "https://maxxxiiime.github.io/ohmyfood/2-ohmyfood-1240px.webp",
+			"isVideo": false
 			},
 			{"description": "page Restaurant",
-			"picture": "https://maxxxiiime.github.io/ohmyfood/1-ohmyfood-1240px.webp"
+			"picture": "https://maxxxiiime.github.io/ohmyfood/1-ohmyfood-1240px.webp",
+			"isVideo": false
 			},
 			{"description": "Choix du menu mobil ",
-			"picture": "https://i.ibb.co/4PF4ffw/ohmyfood-1240-cover.webp"
+			"picture": "https://i.ibb.co/4PF4ffw/ohmyfood-1240-cover.webp",
+			"isVideo": false
 			},
 			
-			
 			{"description": "",
-			"picture": "https://maxxxiiime.github.io/ohmyfood/3-ohmyfood-1240px.webp"
+			"picture": "https://maxxxiiime.github.io/ohmyfood/3-ohmyfood-1240px.webp",
+			"isVideo": false
 			}		
 			],
 
@@ -28,13 +31,6 @@
 		},
 		"date": "2022",
 		"subtitle": "Commande de repas en ligne",
-		"equipments": [
-			"Équipements de base",
-			"Micro-Ondes",
-			"Douche italienne",
-			"Frigo",
-			"WIFI"
-		],
 		"tags": [
 			"HTML",
 			"SASS"
@@ -56,13 +52,16 @@
 		"thecover": "https://maxxxiiime.github.io/ninacarducci/3-ninacarducci-1240px.jpg",
 		"images":[
 			{"description": "page d'accueil",
-			"picture": "https://maxxxiiime.github.io/ninacarducci/0-ninacarducci-1240px.webp"
+			"picture": "https://maxxxiiime.github.io/ninacarducci/0-ninacarducci-1240px.webp",
+			"isVideo": false
 			},
 			{"description": "Optimisation de la gallerie d'images",
-			"picture": "https://maxxxiiime.github.io/ninacarducci/1-ninacarducci-1240px.webp"
+			"picture": "https://maxxxiiime.github.io/ninacarducci/1-ninacarducci-1240px.webp",
+			"isVideo": false
 			},
 			{"description": "Pied de page",
-			"picture": "https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp"
+			"picture": "https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp",
+			"isVideo": false
 			}		
 			],
 
@@ -73,14 +72,6 @@
 		},
 		"date": "2023",
 		"subtitle": "Photographe Professionelle",
-		"equipments": [
-			"Parking",
-			"Sèche Cheveux",
-			"Machine à laver",
-			"Wi-fi",
-			"Cuisine équipée",
-			"Télévision"
-		],
 		"tags": [
 			"HTML",
 			"CSS",
@@ -103,10 +94,16 @@
 		"thecover": "https://i.ibb.co/XyG1TLL/KKMCOVER-page.webp",
 		"images":[
 			{"description": "Exemples cartes de visites et flyer événementiel",
-			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp"
+			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp",
+			"isVideo": false
+			},
+			{"description": "Les 2 'K' se juxtaposent et le cercle forme les 3 'O'. On a toutes les lettres de 'KOKOMO'.",
+			"picture": "https://i.ibb.co/VYpWYGp/kkm-ezgif-5-c0756e03bc.gif",
+			"isVideo": false
 			},
 			{"description": "Conception des T-shirts",
-			"picture": "https://i.ibb.co/q5C1CsZ/kkm-tshirt.png"
+			"picture": "https://i.ibb.co/q5C1CsZ/kkm-tshirt.png",
+			"isVideo": false
 			}		
 			],
 		"description": "Les pieds dans le sable, le Kokomo est un Beach Bar & Restaurant basé à Sint Maarten. J'ai réalisé l'identité visuelle en me basant sur le nom Kokomo. Le logo a volontairement un air emprunté au symbole 'Peace & Love', mais avec les deux 'K' mis l'un contre l'autre et le cercle pour les 3 'O', ce qui forme aussi le 'M'. On peut ainsi y voir toutes les lettres de 'KOKOMO'. La typographie, la police Monoton, présente un tracé strié qui évoque le dynamisme et le luxe, mais rappelle aussi le nautisme et la 'marinière' avec ses rayures bleu marine.",
@@ -116,12 +113,6 @@
 		},
 		"date": "2019",
 		"subtitle": "Beach Bar - Restaurant",
-		"equipments": [
-			"Wi-fi",
-			"Cuisine équipée",
-			"Télévision",
-			"Sèche Cheveux"
-		],
 		"tags": [
 			"Branding",
 			"Design",
@@ -138,29 +129,24 @@
 		"id": "7af00cd6",
 		"title": "OPS MANAGEMENT",
 		"cover": "https://i.ibb.co/R2TwTNQ/op-logo-small-ok.jpg",
-		"thecover": "https://i.ibb.co/9ZP5HGT/kokomo-thecover-1240.jpg",
+		"thecover": "https://i.ibb.co/YTx5pxj/ops-cover.webp",
 		"images":[
 			{"description": "Charte graphique",
-			"picture": "https://i.ibb.co/2sW15BV/CHARTE-GRAPHIQUE-OPSOK.png"
+			"picture": "https://i.ibb.co/2sW15BV/CHARTE-GRAPHIQUE-OPSOK.png",
+			"isVideo": false
 			},
 			{"description": "Carte de visite",
-			"picture": "https://i.ibb.co/3SvGzyz/Cartedevisite-OPS-SIMUok.jpg"
+			"picture": "https://i.ibb.co/3SvGzyz/Cartedevisite-OPS-SIMUok.jpg",
+			"isVideo": false
 			}	
 			],
-		"description": "Operationnal Support & Risk management.",
+		"description": "Identifier, évaluer, mesurer les différents risques naturels afin d’apporter un soutien en conséquence et des solutions concrètes en cas de risques naturels majeurs (séismes, tempêtes...). Aux quatre coins du monde. Voila la mission d'OPS. J’ai conceptualisé le logo de l’organisation autour des symboles d’union, d’unité et de forces ADINKRA, Dwennimen « cornes de bélier » qui symbolisent aussi l’humilité. Afin de développer la résilience face aux adversités, la force et l’humilité peuvent aussi s’exercer intérieurement, et aussi dans les relations sociales. C’est cette dualité qui est mise en œuvre dans la conceptualisation du logo. « Lorsqu’on est confronté à une difficulté, à un obstacle, on peut faire preuve de force tout en demandant de l’aide et en s’appuyant sur ceux qui nous la proposent.",
 		"host": {
 			"name": "Della Case",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
 		},
 		"date": "2018",
 		"subtitle": "Operationnal Support & Risk management ",
-		"equipments": [
-			"Micro-Ondes",
-			"Wi-fi",
-			"Chambre Séparée",
-			"Climatisation",
-			"Télévision"
-		],
 		"tags": [
 			"Branding",
 			"Poster",
@@ -183,42 +169,34 @@
 
 		"images":[
 			{"description": "Illustration du Festival.",
-			"picture": "https://i.ibb.co/MgJSKyN/parcenfete.webp"
+			"picture": "https://i.ibb.co/MgJSKyN/parcenfete.webp",
+			"isVideo": false
 			},
 			{"description": "Annonce publicitaire sur les transports en commun",
-			"picture": "https://i.ibb.co/R62pyrG/habillage-BUS-Parc-En-Fete2014.webp"
+			"picture": "https://i.ibb.co/R62pyrG/habillage-BUS-Parc-En-Fete2014.webp",
+			"isVideo": false
 			},
 			{"description": "T-shirt",
-			"picture": "https://i.ibb.co/ngsvbG8/parcenfete3.webp"
+			"picture": "https://i.ibb.co/ngsvbG8/parcenfete3.webp",
+			"isVideo": false
 			},
 			{"description": "Preview Totems triptyque avec plan",
-			"picture": "https://i.ibb.co/sKbLdDn/Capture-d-e-cran-2014-05-16-a-16-44-41.webp"
+			"picture": "https://i.ibb.co/sKbLdDn/Capture-d-e-cran-2014-05-16-a-16-44-41.webp",
+			"isVideo": false
 			},
 			{"description": "Totems triptyque",
-			"picture": "https://i.ibb.co/wr9x2pY/parcenfete.webp"
+			"picture": "https://i.ibb.co/wr9x2pY/parcenfete.webp",
+			"isVideo": false
 			}	
 		],
 		
-		"pictures": [
-			"https://i.ibb.co/MgJSKyN/parcenfete.webp",
-			"https://i.ibb.co/R62pyrG/habillage-BUS-Parc-En-Fete2014.webp",
-			"https://i.ibb.co/ngsvbG8/parcenfete3.webp",
-			"https://i.ibb.co/wr9x2pY/parcenfete.webp"
-		],
-		"description": "Le Festival Parc en Fête a lieu..",
+		"description": "Le Festival Parc en Fête a lieu à Grenoble (38)...",
 		"host": {
 			"name": "Franck Maher",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
 		"date": "2015",
 		"subtitle": "Festival d'été",
-		"equipments": [
-			"Frigo Américain",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Chambre Séparée",
-			"Parking"
-		],
 		"tags": [
 			"Branding",
 			"Visual identity",
@@ -234,7 +212,6 @@
 			"#47A603"
 		]
 	},
-	
 	{
 		"id": "b4c67936",
 		"title": "Sea Festival",
@@ -242,14 +219,17 @@
 		"thecover":"https://i.ibb.co/j3NjjYZ/seafestival-cover-1600.webp",
 		"images":[
 			{"description": "Affiche du Festival",
-			"picture": "https://i.ibb.co/6XmGgTX/seafest-affiche.jpg"
+			"picture": "https://i.ibb.co/6XmGgTX/seafest-affiche.jpg",
+			"isVideo": false
 			},
 		
 			{"description": "Capture d'écran",
-			"picture": "https://i.ibb.co/mNvZbK8/seafes-preview.jpg"
+			"picture": "https://i.ibb.co/mNvZbK8/seafes-preview.jpg",
+			"isVideo": false
 			},
 			{"description": "Panneau sucette",
-			"picture": "https://i.ibb.co/TYGNzRH/sea-festival-sucette.webp"
+			"picture": "https://i.ibb.co/TYGNzRH/sea-festival-sucette.webp",
+			"isVideo": false
 			}	
 			],
 		"description": "Sea Festival est un un événement idéal pour découvrir les activités nautiques à Saint-Martin. Festival qui a lieu chaque années, j'ai conçu l'identitée visuelle autour de la forme de l'île de Saint-Martin et des activités nautiques. Au programme du Sea Festival : Day charter, Voile légère, Kayak, Paddle, Jet ski, Plongée, Ski nautique, Donuts, Parasail, Kite-Surf, Surf, Windsurf, Paddle-yoga, Volley Beach, Beach tennis...",
@@ -259,14 +239,6 @@
 		},
 		"date": "2019",
 		"subtitle": "Festival de la Mer",
-		"equipments": [
-			"Salle de bains",
-			"Frigo",
-			"Wi-fi",
-			"Sèche Cheveux",
-			"Bureau",
-			"Parking"
-		],
 		"tags": [
 			"Branding",
 			"Design",
@@ -287,29 +259,22 @@
 		"thecover":"https://i.ibb.co/6yDF09d/Charte-graphique-CLASS-conciergerie.jpg",
 		"images":[
 			{"description": "Déclinaisons du logo",
-			"picture": "https://i.ibb.co/2PxJs7J/class-conciergerie-anim.gif"
+			"picture": "https://i.ibb.co/2PxJs7J/class-conciergerie-anim.gif",
+			"isVideo": false
 			},
-			{"description": "Conception des T-shirts",
-			"picture": "https://i.ibb.co/q5C1CsZ/kkm-tshirt.png"
-			},
+
 			{"description": "Test",
-			"picture": "https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp"
+			"picture": "https://i.ibb.co/pvbPnSG/logo-CLASS-White.webp",
+			"isVideo": false
 			}		
 			],
-		"description": "Paris vous tend les bras ! En famille ou entre amis, venez découvrir la ville de l'amour dans un appartement de goût. Vous pourrez profiter de tous les commerces seulement à quelques minutes de l'appartement. Sa proximité avec la gare Montparnasse en fait également un choix idéal pour celles et ceux qui doivent prendre un train.",
+		"description": "C.L.A.S.S. Conciergerie de Luxe à St Martin & St Barthelemy",
 		"host": {
 			"name": "Adrien Chiran",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		"date": "2019",
 		"subtitle": "Conciergerie de luxe",
-		"equipments": [
-			"Climatisation",
-			"Machine à laver",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Parking"
-		],
 		"tags": [
 			"Branding",
 			"Logo",
@@ -324,83 +289,29 @@
 		]
 	},
 	{
-		"id": "d60ca600",
-		"title": "Appartement moderne sur parc",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg",
-		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
-		"images":[
-			{"description": "page d'accueil",
-			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp"
-			},
-			{"description": "Conception des T-shirts",
-			"picture": "https://i.ibb.co/q5C1CsZ/kkm-tshirt.png"
-			},
-			{"description": "Test",
-			"picture": "https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp"
-			}		
-			],
-		"description": "Respirer en plein coeur de Paris ? C'est possible ! Avec vue sur un parc résidentiel, vous pourrez ouvrir les fenêtres sans avoir à souffrir du bruit des voitures et de la pollution. Au contraire, vous pourrez écouter les oiseaux. Notre appartement est également idéalement situé au coeur du 11ème arrondissement. Proche des lignes 3 et 2, vous pourrez découvrir Paris sans effort !",
-		"host": {
-			"name": "Adrien Chiran",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
-		},
-		"date": "2019",
-		"subtitle": "Ile de France - Paris 11e",
-		"equipments": [
-			"Vue Parc",
-			"Chauffage",
-			"Sèche linge",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Ascenseur"
-		],
-		"tags": [
-			"Père Lachaise",
-			"11e",
-			"Metro 3",
-			"Metro 2"
-		],
-		"filter": [
-			"{ Motion }"
-		],
-		"color": [
-			"#47A603"
-		]
-	},
-
-	{
 		"id": "cb02d69b",
-		"title": "Magnifique appartement Rivoli",
+		"title": "Coming soon",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-19-1.jpg",
 		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
 		"images":[
 			{"description": "page d'accueil",
-			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp"
+			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp",
+			"isVideo": false
 			},
 			{"description": "Conception des T-shirts",
-			"picture": "https://i.ibb.co/q5C1CsZ/kkm-tshirt.png"
-			},
-			{"description": "Test",
-			"picture": "https://maxxxiiime.github.io/ninacarducci/2-ninacarducci-1240px.webp"
-			}		
+			"picture": "https://i.ibb.co/q5C1CsZ/kkm-tshirt.png",
+			"isVideo": false
+			}
 			],
-		"description": "Au coeur du quartier historique du Marais, cet appartement est idéal pour un couple à la découverte de Paris. Situé sur la rue de Rivoli, il est à 5 minutes du Louvre.",
+		"description": "Coming soon",
 		"host": {
-			"name": "Nathalie Jean",
+			"name": "Coming soon",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"rating": "4",
-		"subtitle": "Ile de France - Paris 13e",
-		"equipments": [
-			"Wi-fi",
-			"Équipements de base",
-			"Micro-Ondes",
-			"Frigo",
-			"Baignoire"
-		],
+		"subtitle": "Coming soon",
 		"tags": [
-			"Louvre",
-			"Marais",
+			"Branding",
 			"Rivoli"
 		],
 		"filter": [

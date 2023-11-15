@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 import TextAnim from '../components/TextAnim/TextAnim'
-
 import Profilimg from '../assets/moimeme.webp' 
 import './styles/home.scss'
 

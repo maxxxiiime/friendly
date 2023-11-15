@@ -9,7 +9,7 @@
 			"picture": "https://maxxxiiime.github.io/ohmyfood/2-ohmyfood-1240px.webp",
 			"isVideo": false
 			},
-			{"description": "page Restaurant",
+			{"description": "Page Restaurant",
 			"picture": "https://maxxxiiime.github.io/ohmyfood/1-ohmyfood-1240px.webp",
 			"isVideo": false
 			},
@@ -18,7 +18,7 @@
 			"isVideo": false
 			},
 			
-			{"description": "",
+			{"description": "Page Restaurant",
 			"picture": "https://maxxxiiime.github.io/ohmyfood/3-ohmyfood-1240px.webp",
 			"isVideo": false
 			}		
@@ -308,7 +308,7 @@
 			"name": "Coming soon",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
-		"rating": "4",
+		"date": "2019",
 		"subtitle": "Coming soon",
 		"tags": [
 			"Branding",

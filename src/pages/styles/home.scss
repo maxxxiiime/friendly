@@ -67,8 +67,9 @@ h1{
     }
      @media only screen and (max-width:775px){
         margin: 23px auto 100px 0;
-        font-size: 28px;
+        font-size: 41px;
     }
+    
 }
 
 .friendly-designer{
@@ -135,7 +136,8 @@ font-size: 36px;
     height: 565px;
     background-color: #BF8563;
     position:absolute; 
-    top:148px;
+    top:50%;
+    transform: translateY(-50%);
     right:10%;
     z-index: 2;
     opacity: .6;
@@ -150,7 +152,8 @@ font-size: 36px;
     max-height: 560px;
     overflow: hidden; 
     position:absolute; 
-    top:150px;
+    top:50%;
+    transform: translateY(-50%);
     right:10%;
     z-index: 3;
     animation: bubblin 8s linear infinite;
@@ -171,12 +174,12 @@ font-size: 36px;
   }
   @media only screen and (max-width: 940px) {
     .ovale-anim {
-        top:160px;
+      top:40%;
         width: 280px;
         height: 340px;
     }
     .ovale-anim2 {
-        top:160px;
+      top:40%;
         width: 285px;
         height: 345px;
     }
@@ -184,12 +187,12 @@ font-size: 36px;
 
   @media only screen and (max-width: 540px) {
     .ovale-anim {
-        top:122px; 
+      top:60%;
         width: 254px;
         height: 324px;
     }
     .ovale-anim2 {
-        top:122px;   
+      top:60%;   
         width: 264px;
         height: 326px;
     }

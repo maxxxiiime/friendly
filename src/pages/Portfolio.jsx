@@ -12,10 +12,8 @@ export default function Portfolio() {
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
   };
-
   return (
     <div>
-
         <Filter
           categories={categories}
           selectedCategory={selectedCategory}

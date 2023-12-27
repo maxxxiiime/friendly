@@ -15,7 +15,6 @@ export default function ThemeProvider(props){
     return (
         <ThemeContext.Provider value={{ToggleTheme, darkMode}}>
             {props.children}
-
         </ThemeContext.Provider>
     )
 }

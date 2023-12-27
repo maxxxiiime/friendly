@@ -7,7 +7,7 @@ class TextAnim extends React.Component {
       <div className="text-animation">
        <span> Friendly </span>
         <Typed
-          strings={[' Web | Graphic Designer',' Designer', ' Web Developer (soon ジ ',' Designer']}
+          strings={[' Web | Graphic Designer',' Designer', ' Web Developer']}
           typeSpeed={70} // Vitesse de frappe
           backSpeed={20} // Vitesse de retour
           backDelay={2300} // Délai avant le retour en arrière

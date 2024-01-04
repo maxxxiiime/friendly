@@ -2,9 +2,9 @@ import React from "react";
 
 import { SkillsData } from "../datas/SkillsData";
 import Collapse from "../components/Collapse/Collapse";
-import "./styles/about.scss";
-import slide1 from "../assets/slide1.jpg"
-
+import "./styles/about.scss"; 
+import cv from "../assets/CV-Maxime_Jouffrey-73.pdf"  
+ 
 export default function About() {
    //toutes les compétences en une seule variablee
    const allSkillsContent = SkillsData[0].skills.map((skill) => (
@@ -25,7 +25,7 @@ export default function About() {
   <p>J'interviens sur la réalisation de projets de communication print et multimédia.</p>
   <div className="cv">
       <button>
-        <a href={slide1} target="_blank" rel="noopener noreferrer">
+        <a href={cv} target="_blank" rel="noopener noreferrer">
       <span className="letters-cv">↓  C</span>urriculum <span className="letters-cv">V</span>itæ 
       </a>
         </button>

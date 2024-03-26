@@ -3,10 +3,13 @@
   max-width: 1240px;
   height: 400px;
   text-align: center;
-  margin: 50px auto;
+  margin: 50px auto 40px auto;
   padding-bottom: 20px;
   position: relative;
-
+  @media only screen and (max-width: 775px) {
+    height: 200px;
+    margin: 50px auto 20px auto;
+  }
   &_img {
     object-fit: cover;
     width: 100%;
@@ -16,6 +19,7 @@
     // filter: brightness(0.8);
     @media only screen and (max-width: 775px) {
       border-radius: 0 0 20px 20px;
+      height: 200px;
     }
   }
 

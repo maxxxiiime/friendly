@@ -63,11 +63,12 @@ h1{
      cursor: pointer;
      @media only screen and (max-width:940px){
         margin: 23px auto 100px 0;
-        font-size: 45px;
+        font-size: 42px;
     }
      @media only screen and (max-width:775px){
-        margin: 23px auto 100px 0;
-        font-size: 41px;
+        margin: 5px 0 100px 0;
+        font-size: 30px;
+        width: 100%;
     }
     
 }
@@ -174,26 +175,26 @@ font-size: 36px;
   @media only screen and (max-width: 940px) {
     .ovale-anim {
       top:40%;
-        width: 280px;
-        height: 340px;
+        width: 270px;
+        height: 335px;
     }
     .ovale-anim2 {
       top:40%;
-        width: 285px;
-        height: 345px;
+        width: 275px;
+        height: 340px;
     }
   }
 
   @media only screen and (max-width: 540px) {
     .ovale-anim {
       top:60%;
-        width: 254px;
-        height: 324px;
+        width: 234px;
+        height: 314px;
     }
     .ovale-anim2 {
       top:60%;   
-        width: 264px;
-        height: 326px;
+        width: 241px;
+        height: 316px;
     }
   }
   body.dark h1{

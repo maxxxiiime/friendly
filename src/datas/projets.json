@@ -289,17 +289,60 @@
 		]
 	},
 	{
-		"id": "cb02d69b",
-		"title": "Coming soon",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-19-1.jpg",
-		"thecover":"https://maxxxiiime.github.io/ohmyfood/ohmyfood-desktop2023-09-16-800px.jpg",
+		"id": "cb2f9221",
+		"title": "FORUM SANTÉ ",
+		"cover": "https://i.ibb.co/HNRF9R4/forum-sante-small.webp",
+		"thecover":"https://i.ibb.co/YX0BWcx/forum-sante-couv2.jpg",
 		"images":[
-			{"description": "page d'accueil",
-			"picture": "https://i.ibb.co/dDHTWRy/1-kokomo-1240.webp",
+			{"description": "Déclinaisons du logo",
+			"picture": "https://i.ibb.co/Dby5Csw/forum-sante-flyer-A5.webp",
 			"isVideo": false
 			},
-			{"description": "Conception des T-shirts",
-			"picture": "https://i.ibb.co/q5C1CsZ/kkm-tshirt.png",
+			{"description": "Banner",
+			"picture": "https://i.ibb.co/3dnb246/Flanc-bus-Forum-Sante.webp",
+			"isVideo": false
+			},
+
+			{"description": "dépliant 2 volets, 10X21cm",
+			"picture": "https://i.ibb.co/qnQNXv6/Capture-d-e-cran-2024-03-31-a-16-07-31.webp",
+			"isVideo": false
+			}		
+			],
+		"description": "Le Forum Santé, retrouver tous les conseils autour de la santé en général. Découverte d’activités sportives. Dépistage...",
+		"host": {
+			"name": "Adrien Chiran",
+			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
+		},
+		"date": "2019",
+		"subtitle": "Tous les conseils autour de la santé en général",
+		"tags": [
+			"Branding",
+			"Logo"
+		],
+		"filter": [
+			"{ Branding }"
+			
+		],
+		"color": [
+			"#00a6e3"
+		]
+	},
+	{
+		"id": "cb02d69b",
+		"title": "Asana playa",
+		"cover": "https://i.ibb.co/ScQjLQ0/Asana-playa-miniature.jpg",
+		"thecover":"https://i.ibb.co/m0z5Lw8/asaa-couv.webp",
+		"images":[
+			{"description": "Conception de flyer et d'affiche",
+			"picture": "https://i.ibb.co/qxKjQG2/ezgif-5-593c370c34.gif",
+			"isVideo": false
+			},
+			{"description": "Conception de flyer et d'affiche",
+			"picture": "https://i.ibb.co/McG6Tpg/asa3.webp",
+			"isVideo": false
+			},
+			{"description": "Conception des tapis de yoga",
+			"picture": "https://i.ibb.co/NLVx8p4/asa1.webp",
 			"isVideo": false
 			}
 			],
@@ -312,13 +355,15 @@
 		"subtitle": "Coming soon",
 		"tags": [
 			"Branding",
-			"Rivoli"
+			"Logo",
+			"Motion"
 		],
 		"filter": [
-			"{ Branding }"
+			"{ Branding }",
+			"{ Motion }"
 		],
 		"color": [
-			"#47A603"
+			"#3FB284"
 		]
 	}
 ]

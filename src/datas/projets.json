@@ -88,6 +88,46 @@
 			]
 	},
 	{
+		"id": "c2123946",
+		"title": "Leasing Auto",
+		"cover": "https://i.ibb.co/v1RRRvP/tiliti-home-s.webp",
+		"thecover": "https://i.ibb.co/N6gfSYH/home-dark.webp",
+		"images":[
+			{"description": "page d'accueil",
+			"picture": "https://i.ibb.co/z6yBwJX/home-simu.webp",
+			"isVideo": false
+			},
+			{"description": "Optimisation Responsive",
+			"picture": "https://i.ibb.co/44m3F8N/home-simu-mobil.webp",
+			"isVideo": false
+			},
+			{"description": "Landing Page",
+			"picture": "https://i.ibb.co/6yZTtXY/home-preview.webp",
+			"isVideo": false
+			}		
+			],
+
+		"description": "Soon",
+		"host": {
+			"name": "Della Case",
+			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
+		},
+		"date": "2023",
+		"subtitle": "Prototype landing page",
+		"tags": [
+			"HTML",
+			"CSS",
+			"UI/UX",
+			"SEO"
+		],
+		"filter": [
+			"{ Web }"
+		],
+		"color": [
+			"#d45f1b"
+			]
+	},
+	{
 		"id": "46d188c5",
 		"title": "KOKOMO",
 		"cover": "https://i.ibb.co/0JycK6J/kkm-logo-ok.jpg",
@@ -308,7 +348,7 @@
 			"isVideo": false
 			}		
 			],
-		"description": "Le Forum Santé, retrouver tous les conseils autour de la santé en général. Découverte d’activités sportives. Dépistage...",
+		"description": "Pour l'identité visuelle du Forum santé, j'ai opté pour l'utilisation d'une police arrondie et de couleurs qui favorisent une atmosphère conviviale et accueillante, tout en suggérant un environnement chaleureux et accessible pour tous les participants. Les pictogrammes sont des éléments visuels universels facilement compris par tout le monde, quelle que soit la langue, et permettent de représenter des concepts complexes de manière simple. La fusion subtile entre le cœur et le point d'interrogation permet d'incarner visuellement la mission du Forum santé : susciter l'échange autour des questions liées à la santé.",
 		"host": {
 			"name": "Adrien Chiran",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"

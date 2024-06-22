@@ -3,7 +3,7 @@ import React from "react";
 import { SkillsData } from "../datas/SkillsData";
 import Collapse from "../components/Collapse/Collapse";
 import "./styles/about.scss"; 
-import cv from "../assets/CV-Maxime_Jouffrey-73.pdf"  
+//import cv from "../assets/CV-Maxime_Jouffrey-73.pdf"  
  
 export default function About() {
    //toutes les compétences en une seule variablee
@@ -25,9 +25,9 @@ export default function About() {
   <p>J'interviens sur la réalisation de projets de communication print et multimédia.</p>
   <div className="cv">
       <button>
-        <a href={cv} target="_blank" rel="noopener noreferrer">
+        
       <span className="letters-cv">↓  C</span>urriculum <span className="letters-cv">V</span>itæ 
-      </a>
+     
         </button>
         </div>
  </div>
